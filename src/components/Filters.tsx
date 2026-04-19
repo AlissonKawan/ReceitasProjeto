@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-type OpcaoFiltro = "todos" | "receitas" | "posts";
+type OpcaoFiltro = "todos" | "pratos-principais" | "saladas" | "sobremesas" | "bebidas";
 
 function Filter() {
 
@@ -24,8 +24,10 @@ function Filter() {
                         className="bg-gray-100 text-gray-700 rounded-lg px-2 py-1 outline-none"
                         >
                             <option value="todos">Todos</option>
-                            <option value="receitas">Receitas</option>
-                            <option value="posts">Posts</option>
+                            <option value="pratos-principais">Pratos Principais</option>
+                            <option value="saladas">Saladas</option>
+                            <option value="sobremesas">Sobremesas</option>
+                            <option value="bebidas">Bebidas</option>
                         </select>
                 </div>
             </div>
