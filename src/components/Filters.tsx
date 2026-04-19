@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-type OpcaoFiltro = "todos" | "pratosprincipais" | "saladas" | "sobremesas" | "bebidas";
+type OpcaoFiltro = "todos" | "pratos-principais" | "saladas" | "sobremesas" | "bebidas";
 
 function Filter() {
 
