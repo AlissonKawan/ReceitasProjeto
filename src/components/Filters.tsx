@@ -24,7 +24,7 @@ function Filter() {
                         className="bg-gray-100 text-gray-700 rounded-lg px-2 py-1 outline-none"
                         >
                             <option value="todos">Todos</option>
-                            <option value="pratosprincipais">Receitas Principais</option>
+                            <option value="pratos-principais">Pratos Principais</option>
                             <option value="saladas">Saladas</option>
                             <option value="sobremesas">Sobremesas</option>
                             <option value="bebidas">Bebidas</option>
