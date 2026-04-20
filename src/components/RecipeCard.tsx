@@ -1,9 +1,14 @@
+import type { Receita } from "./Receita";
 
-function RecipeCards() {
-    return(
-        <>
-        
-        </>
-    )
+type Props = {
+    receita: Receita;
+};
+
+function RecipeCard({ receita }: Props) {
+    return (
+    <>
+        <h2>{receita.nome}</h2>
+    </>
+    );
 }
-export default RecipeCards;
+export default RecipeCard;
