@@ -94,7 +94,7 @@ function RecipeList({ receitas }: Props) {
       </div>
 
 
-      {/*  MODAL (AGORA MAIS COMPLETO E BONITO) */}
+      {/*  MODAL (Parte parte visual da tela de modo de preparo) */}
       {/* se tiver uma receita selecionada, mostra */}
       {receitaSelecionada && (
         <div className="fixed inset-0 bg-black/50 flex justify-center items-center">
