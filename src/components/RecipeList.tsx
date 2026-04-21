@@ -17,7 +17,21 @@ type Props = {
 };
 
 
+// mesmo mapa de cores do RecipeCard (reutilização de lógica)
+// isso evita duplicar if/else e mantém padrão visual
+const corDificuldade: Record<string, string> = {
+  Fácil: "bg-green-500",
+  Média: "bg-yellow-500",
+  Difícil: "bg-red-500",
+};
+
+
 function RecipeList({ receitas }: Props) {
+
+  // NOVO ESTADO
+  // Guarda qual receita foi clicada
+  // começa como null (nenhuma selecionada)
+  const [receitaSelecionada, setReceitaSelecionada] = useState<Receita | null>(null);
 
   // Guarda qual página o usuário está
   // começa na página 1
@@ -56,26 +70,103 @@ function RecipeList({ receitas }: Props) {
         <div
           className="
             grid 
-            grid-cols-1        // celular → 1 coluna
-            sm:grid-cols-2     // tela pequena → 2 colunas
-            md:grid-cols-3     // tablet → 3 colunas
-            lg:grid-cols-4     // pc → 4 colunas (o que a gente quer)
-            gap-6              // espaço entre os cards
-            p-4                // espaçamento interno
-            justify-items-center // centraliza os cards
+            grid-cols-1
+            sm:grid-cols-2
+            md:grid-cols-3
+            lg:grid-cols-4
+            gap-6
+            p-4
+            justify-items-center
           "
         >
 
           {/* aqui a gente percorre só as receitas da página atual */}
           {receitasPaginadas.map((receita) => (
             <RecipeCard
-              key={receita.id}   // React precisa disso pra organizar melhor
-              receita={receita}  // manda a receita pro card
+              key={receita.id}
+              receita={receita}
+              // ao clicar no card, salva a receita no estado
+              onClick={() => setReceitaSelecionada(receita)}
             />
           ))}
 
         </div>
       </div>
+
+
+      {/*  MODAL (AGORA MAIS COMPLETO E BONITO) */}
+      {/* se tiver uma receita selecionada, mostra */}
+      {receitaSelecionada && (
+        <div className="fixed inset-0 bg-black/50 flex justify-center items-center">
+
+          {/* container do modal */}
+          <div className="bg-white p-6 rounded-lg max-w-lg w-full">
+
+            {/* HEADER com título + botão fechar */}
+            <div className="flex justify-between items-start mb-2">
+              <h2 className="text-xl font-bold">
+                {receitaSelecionada.nome}
+              </h2>
+
+              {/* botão fechar */}
+              <button
+                onClick={() => setReceitaSelecionada(null)}
+                className="text-gray-500 hover:text-black"
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* IMAGEM da receita */}
+            <img
+              src={receitaSelecionada.imagem}
+              alt={receitaSelecionada.nome}
+              className="w-full h-48 object-cover rounded-lg mb-4"
+            />
+
+            {/* INFORMAÇÕES PRINCIPAIS */}
+            {/* aqui usamos o mesmo mapa de cores da dificuldade */}
+            <div className="flex flex-wrap gap-2 items-center text-sm mb-4">
+
+              {/* dificuldade com cor dinâmica */}
+              <span
+                className={`${corDificuldade[receitaSelecionada.dificuldade]} text-white px-2 py-1 rounded`}
+              >
+                {receitaSelecionada.dificuldade}
+              </span>
+
+              {/* categoria */}
+              <span className="bg-gray-200 px-2 py-1 rounded">
+                {receitaSelecionada.categoria}
+              </span>
+
+              {/* tempo */}
+              <span>⏱ {receitaSelecionada.tempo}</span>
+
+              {/* porções */}
+              <span>🍽 {receitaSelecionada.porcoes} porções</span>
+
+            </div>
+
+            {/* Ingredientes */}
+            <h3 className="font-semibold mt-4">Ingredientes</h3>
+            <ul className="list-disc ml-5">
+              {receitaSelecionada.ingredientes.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+
+            {/* Modo de preparo */}
+            <h3 className="font-semibold mt-4">Modo de preparo</h3>
+            <ol className="list-decimal ml-5">
+              {receitaSelecionada.modoPreparo.map((passo, index) => (
+                <li key={index}>{passo}</li>
+              ))}
+            </ol>
+
+          </div>
+        </div>
+      )}
 
 
       {/* PAGINAÇÃO (os botões embaixo) */}
@@ -84,7 +175,7 @@ function RecipeList({ receitas }: Props) {
         {/* botão de voltar página */}
         <button
           onClick={() => setPaginaAtual(paginaAtual - 1)}
-          disabled={paginaAtual === 1} // desativa se já estiver na primeira
+          disabled={paginaAtual === 1}
           className="bg-gray-200 px-4 py-2 rounded disabled:opacity-50"
         >
           ← Anterior
@@ -98,7 +189,7 @@ function RecipeList({ receitas }: Props) {
         {/* botão de próxima página */}
         <button
           onClick={() => setPaginaAtual(paginaAtual + 1)}
-          disabled={paginaAtual === totalPaginas} // desativa na última
+          disabled={paginaAtual === totalPaginas}
           className="bg-gray-200 px-4 py-2 rounded disabled:opacity-50"
         >
           Próxima →
