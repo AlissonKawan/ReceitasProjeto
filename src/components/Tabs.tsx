@@ -1,8 +1,8 @@
-
 function Tabs() {
     return(
         <>
-        <h1>Criando a brach Eduardo</h1>
+        <h1>hello world boni</h1>
+        <h2>Teste</h2>
         </>
     )
 }
