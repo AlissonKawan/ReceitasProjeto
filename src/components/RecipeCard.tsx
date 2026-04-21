@@ -5,8 +5,10 @@ import type { Receita } from "./Receita";
 
 // Define o que esse componente espera receber
 // nesse caso: UMA receita só
+// adicionamos onClick para permitir clique no card
 type Props = {
   receita: Receita;
+  onClick?: () => void;
 };
 
 
@@ -21,13 +23,18 @@ const corDificuldade: Record<string, string> = {
 
 // Componente do card
 // recebe a receita e transforma em UI (visual)
-function RecipeCard({ receita }: Props) {
+function RecipeCard({ receita, onClick }: Props) {
   return (
 
     // Esse é o card inteiro
     // w-full → ocupa o espaço que o grid der
-    // max-w-sm → impede de ficar gigante demais
-    <div className="bg-white rounded-xl shadow-md overflow-hidden w-full max-w-sm">
+    // max-w-md → aumentei um pouco pra ficar mais "gordinho"
+    // cursor-pointer → mostra que é clicável
+    // hover:scale-105 → leve animação ao passar o mouse
+    <div
+      onClick={onClick}
+      className="bg-white rounded-xl shadow-md overflow-hidden w-full max-w-md cursor-pointer transition-transform hover:scale-105"
+    >
 
       {/* IMAGEM */}
       <img
