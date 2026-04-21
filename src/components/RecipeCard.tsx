@@ -60,10 +60,7 @@ function RecipeCard({ receita }: Props) {
         {/* DIFICULDADE */}
         {/* aqui você usa o "mapa" de cores */}
         <span
-          className={`
-            ${corDificuldade[receita.dificuldade]} 
-            text-white text-xs px-2 py-1 rounded mt-2 inline-block
-          `}
+          className={`${corDificuldade[receita.dificuldade]} text-white text-xs px-2 py-1 rounded mt-2 inline-block`}
         >
           {receita.dificuldade}
         </span>

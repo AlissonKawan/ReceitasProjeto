@@ -31,6 +31,7 @@ function RecipeList({ receitas }: Props) {
   // exemplo:
   // página 1 → começa no 0
   // página 2 → começa no 12
+  // então ele pula sempre que for em outra pagina para não mostrar os mesmos itens
   const indiceInicial = (paginaAtual - 1) * itensPorPagina;
 
   // aqui define até onde vai
@@ -78,7 +79,7 @@ function RecipeList({ receitas }: Props) {
 
 
       {/* PAGINAÇÃO (os botões embaixo) */}
-      <div className="flex gap-4 mt-4 items-center">
+      <div className="flex gap-5 mt-4 items-center">
 
         {/* botão de voltar página */}
         <button
