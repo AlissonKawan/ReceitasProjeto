@@ -1,65 +1,1514 @@
 [
-  { "id": 1, "nome": "Arroz com Frango", "categoria": "Prato Principal", "tempo": "40 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?chicken" },
-  { "id": 2, "nome": "Lasanha", "categoria": "Prato Principal", "tempo": "60 min", "porcoes": 6, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?lasagna" },
-  { "id": 3, "nome": "Feijoada", "categoria": "Prato Principal", "tempo": "90 min", "porcoes": 8, "dificuldade": "Difícil", "imagem": "https://source.unsplash.com/featured/?feijoada" },
-  { "id": 4, "nome": "Strogonoff", "categoria": "Prato Principal", "tempo": "30 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?strogonoff" },
-  { "id": 5, "nome": "Macarrão", "categoria": "Prato Principal", "tempo": "25 min", "porcoes": 3, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?pasta" },
-  { "id": 6, "nome": "Bife com Batata", "categoria": "Prato Principal", "tempo": "35 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?steak" },
-  { "id": 7, "nome": "Risoto", "categoria": "Prato Principal", "tempo": "45 min", "porcoes": 4, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?risotto" },
-  { "id": 8, "nome": "Hambúrguer", "categoria": "Prato Principal", "tempo": "20 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?burger" },
-  { "id": 9, "nome": "Frango Assado", "categoria": "Prato Principal", "tempo": "70 min", "porcoes": 5, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?roast-chicken" },
-  { "id": 10, "nome": "Pizza", "categoria": "Prato Principal", "tempo": "50 min", "porcoes": 4, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?pizza" },
-  { "id": 11, "nome": "Yakisoba", "categoria": "Prato Principal", "tempo": "30 min", "porcoes": 3, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?yakisoba" },
-  { "id": 12, "nome": "Escondidinho", "categoria": "Prato Principal", "tempo": "60 min", "porcoes": 6, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?casserole" },
-  { "id": 13, "nome": "Moqueca", "categoria": "Prato Principal", "tempo": "50 min", "porcoes": 4, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?fish" },
-  { "id": 14, "nome": "Panqueca", "categoria": "Prato Principal", "tempo": "30 min", "porcoes": 3, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?pancake" },
-  { "id": 15, "nome": "Frango Grelhado", "categoria": "Prato Principal", "tempo": "25 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?grilled-chicken" },
-  { "id": 16, "nome": "Carne de Panela", "categoria": "Prato Principal", "tempo": "80 min", "porcoes": 5, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?beef" },
-  { "id": 17, "nome": "Sushi", "categoria": "Prato Principal", "tempo": "90 min", "porcoes": 4, "dificuldade": "Difícil", "imagem": "https://source.unsplash.com/featured/?sushi" },
-  { "id": 18, "nome": "Tacos", "categoria": "Prato Principal", "tempo": "30 min", "porcoes": 3, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?tacos" },
-  { "id": 19, "nome": "Curry", "categoria": "Prato Principal", "tempo": "45 min", "porcoes": 4, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?curry" },
-  { "id": 20, "nome": "Paella", "categoria": "Prato Principal", "tempo": "70 min", "porcoes": 6, "dificuldade": "Difícil", "imagem": "https://source.unsplash.com/featured/?paella" },
-
-  { "id": 21, "nome": "Salada Caesar", "categoria": "Salada", "tempo": "15 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?salad" },
-  { "id": 22, "nome": "Salada Grega", "categoria": "Salada", "tempo": "10 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?greek-salad" },
-  { "id": 23, "nome": "Salada de Frango", "categoria": "Salada", "tempo": "20 min", "porcoes": 3, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?chicken-salad" },
-  { "id": 24, "nome": "Salada de Atum", "categoria": "Salada", "tempo": "15 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?tuna-salad" },
-  { "id": 25, "nome": "Salada de Macarrão", "categoria": "Salada", "tempo": "25 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?pasta-salad" },
-  { "id": 26, "nome": "Salada de Batata", "categoria": "Salada", "tempo": "30 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?potato-salad" },
-  { "id": 27, "nome": "Salada de Quinoa", "categoria": "Salada", "tempo": "20 min", "porcoes": 3, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?quinoa" },
-  { "id": 28, "nome": "Salada Caprese", "categoria": "Salada", "tempo": "10 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?caprese" },
-  { "id": 29, "nome": "Salada de Frutas", "categoria": "Salada", "tempo": "15 min", "porcoes": 3, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?fruit-salad" },
-  { "id": 30, "nome": "Salada Verde", "categoria": "Salada", "tempo": "10 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?green-salad" },
-
-  { "id": 31, "nome": "Bolo de Chocolate", "categoria": "Sobremesa", "tempo": "50 min", "porcoes": 6, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?chocolate-cake" },
-  { "id": 32, "nome": "Brigadeiro", "categoria": "Sobremesa", "tempo": "20 min", "porcoes": 10, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?brigadeiro" },
-  { "id": 33, "nome": "Pudim", "categoria": "Sobremesa", "tempo": "60 min", "porcoes": 8, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?pudding" },
-  { "id": 34, "nome": "Sorvete", "categoria": "Sobremesa", "tempo": "10 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?ice-cream" },
-  { "id": 35, "nome": "Mousse", "categoria": "Sobremesa", "tempo": "30 min", "porcoes": 5, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?mousse" },
-  { "id": 36, "nome": "Torta de Limão", "categoria": "Sobremesa", "tempo": "45 min", "porcoes": 6, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?lemon-pie" },
-  { "id": 37, "nome": "Cheesecake", "categoria": "Sobremesa", "tempo": "60 min", "porcoes": 6, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?cheesecake" },
-  { "id": 38, "nome": "Brownie", "categoria": "Sobremesa", "tempo": "35 min", "porcoes": 6, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?brownie" },
-  { "id": 39, "nome": "Doce de Leite", "categoria": "Sobremesa", "tempo": "90 min", "porcoes": 5, "dificuldade": "Difícil", "imagem": "https://source.unsplash.com/featured/?dulce-de-leche" },
-  { "id": 40, "nome": "Gelatina", "categoria": "Sobremesa", "tempo": "15 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?gelatin" },
-  { "id": 41, "nome": "Tiramisu", "categoria": "Sobremesa", "tempo": "40 min", "porcoes": 6, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?tiramisu" },
-  { "id": 42, "nome": "Panna Cotta", "categoria": "Sobremesa", "tempo": "25 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?panna-cotta" },
-  { "id": 43, "nome": "Pavê", "categoria": "Sobremesa", "tempo": "30 min", "porcoes": 8, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?trifle" },
-  { "id": 44, "nome": "Bolo de Cenoura", "categoria": "Sobremesa", "tempo": "55 min", "porcoes": 8, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?carrot-cake" },
-  { "id": 45, "nome": "Crepe", "categoria": "Sobremesa", "tempo": "25 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?crepe" },
-  { "id": 46, "nome": "Profiterole", "categoria": "Sobremesa", "tempo": "50 min", "porcoes": 6, "dificuldade": "Difícil", "imagem": "https://source.unsplash.com/featured/?profiterole" },
-  { "id": 47, "nome": "Quindim", "categoria": "Sobremesa", "tempo": "45 min", "porcoes": 6, "dificuldade": "Média", "imagem": "https://source.unsplash.com/featured/?custard" },
-  { "id": 48, "nome": "Romeu e Julieta", "categoria": "Sobremesa", "tempo": "10 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?guava-cheese" },
-  { "id": 49, "nome": "Waffle", "categoria": "Sobremesa", "tempo": "20 min", "porcoes": 3, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?waffle" },
-  { "id": 50, "nome": "Creme Brûlée", "categoria": "Sobremesa", "tempo": "50 min", "porcoes": 4, "dificuldade": "Difícil", "imagem": "https://source.unsplash.com/featured/?creme-brulee" },
-
-  { "id": 51, "nome": "Milkshake", "categoria": "Bebida", "tempo": "10 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?milkshake" },
-  { "id": 52, "nome": "Suco de Laranja", "categoria": "Bebida", "tempo": "5 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?orange-juice" },
-  { "id": 53, "nome": "Café", "categoria": "Bebida", "tempo": "5 min", "porcoes": 1, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?coffee" },
-  { "id": 54, "nome": "Chá", "categoria": "Bebida", "tempo": "10 min", "porcoes": 1, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?tea" },
-  { "id": 55, "nome": "Smoothie", "categoria": "Bebida", "tempo": "10 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?smoothie" },
-  { "id": 56, "nome": "Limonada", "categoria": "Bebida", "tempo": "10 min", "porcoes": 4, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?lemonade" },
-  { "id": 57, "nome": "Vitamina de Banana", "categoria": "Bebida", "tempo": "5 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?banana-smoothie" },
-  { "id": 58, "nome": "Chocolate Quente", "categoria": "Bebida", "tempo": "10 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?hot-chocolate" },
-  { "id": 59, "nome": "Caipirinha", "categoria": "Bebida", "tempo": "10 min", "porcoes": 2, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?caipirinha" },
-  { "id": 60, "nome": "Água de Coco", "categoria": "Bebida", "tempo": "5 min", "porcoes": 1, "dificuldade": "Fácil", "imagem": "https://source.unsplash.com/featured/?coconut-water" }
+  {
+    "id": 1,
+    "nome": "Arroz com Frango",
+    "categoria": "Prato Principal",
+    "tempo": "40 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?chicken",
+    "ingredientes": [
+      "500g de frango em cubos",
+      "2 xícaras de arroz",
+      "1 cebola picada",
+      "3 dentes de alho",
+      "1 tomate picado",
+      "Sal, pimenta e temperos a gosto",
+      "2 colheres de óleo",
+      "Cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com sal, alho e pimenta",
+      "Refogue o frango no óleo quente até dourar",
+      "Adicione a cebola e o tomate e refogue por 3 minutos",
+      "Acrescente o arroz e mexa bem",
+      "Adicione 4 xícaras de água quente e cozinhe em fogo baixo",
+      "Quando o arroz secar, desligue e finalize com cheiro-verde"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Lasanha",
+    "categoria": "Prato Principal",
+    "tempo": "60 min",
+    "porcoes": 6,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?lasagna",
+    "ingredientes": [
+      "500g de massa para lasanha",
+      "500g de carne moída",
+      "500ml de molho de tomate",
+      "500ml de molho branco",
+      "200g de queijo mussarela",
+      "100g de queijo parmesão",
+      "1 cebola picada",
+      "2 dentes de alho"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho, adicione a carne moída e cozinhe bem",
+      "Acrescente o molho de tomate e deixe apurar por 10 minutos",
+      "Monte a lasanha: camadas de massa, molho de carne, molho branco e queijo",
+      "Repita as camadas até terminar os ingredientes",
+      "Cubra com mussarela e parmesão ralado",
+      "Leve ao forno a 180°C por 30 minutos até gratinar"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Feijoada",
+    "categoria": "Prato Principal",
+    "tempo": "90 min",
+    "porcoes": 8,
+    "dificuldade": "Difícil",
+    "imagem": "https://source.unsplash.com/featured/?feijoada",
+    "ingredientes": [
+      "500g de feijão preto",
+      "300g de carne seca",
+      "200g de linguiça calabresa",
+      "200g de costelinha de porco",
+      "1 cebola grande picada",
+      "4 dentes de alho",
+      "2 folhas de louro",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Deixe o feijão e as carnes salgadas de molho na véspera",
+      "Cozinhe o feijão na pressão por 20 minutos",
+      "Refogue o alho e a cebola em azeite",
+      "Adicione as carnes e refogue por 5 minutos",
+      "Junte o feijão cozido, o louro e misture tudo",
+      "Cozinhe em fogo baixo por mais 30 minutos mexendo sempre",
+      "Ajuste o sal e sirva com arroz, couve e farofa"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Strogonoff",
+    "categoria": "Prato Principal",
+    "tempo": "30 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?strogonoff",
+    "ingredientes": [
+      "500g de filé mignon em tiras",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "200g de champignon",
+      "1 lata de creme de leite",
+      "3 colheres de ketchup",
+      "2 colheres de mostarda",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a carne com sal e pimenta",
+      "Refogue a carne em óleo quente até dourar",
+      "Retire a carne e refogue a cebola e o alho no mesmo óleo",
+      "Adicione o champignon e refogue por 2 minutos",
+      "Junte a carne de volta à panela",
+      "Acrescente ketchup, mostarda e creme de leite",
+      "Misture bem e cozinhe por mais 5 minutos em fogo baixo"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Macarrão",
+    "categoria": "Prato Principal",
+    "tempo": "25 min",
+    "porcoes": 3,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?pasta",
+    "ingredientes": [
+      "300g de macarrão espaguete",
+      "300ml de molho de tomate",
+      "150g de carne moída",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "Azeite, sal e pimenta",
+      "Manjericão fresco a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão em água com sal até ficar al dente",
+      "Refogue a cebola e o alho no azeite",
+      "Adicione a carne moída e cozinhe até dourar",
+      "Acrescente o molho de tomate e tempere",
+      "Deixe apurar por 10 minutos em fogo médio",
+      "Misture com o macarrão e finalize com manjericão"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Bife com Batata",
+    "categoria": "Prato Principal",
+    "tempo": "35 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?steak",
+    "ingredientes": [
+      "2 bifes de alcatra",
+      "3 batatas médias",
+      "2 dentes de alho amassados",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar",
+      "Cheiro-verde a gosto"
+    ],
+    "modoPreparo": [
+      "Corte as batatas em palitos e deixe de molho em água",
+      "Tempere os bifes com sal, pimenta e alho",
+      "Frite as batatas em óleo bem quente até dourar",
+      "Grelhe os bifes em frigideira quente por 3 minutos cada lado",
+      "Escorra as batatas fritas e tempere com sal",
+      "Sirva os bifes com as batatas e cheiro-verde"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Risoto",
+    "categoria": "Prato Principal",
+    "tempo": "45 min",
+    "porcoes": 4,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?risotto",
+    "ingredientes": [
+      "2 xícaras de arroz arbóreo",
+      "1L de caldo de legumes quente",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "100ml de vinho branco seco",
+      "50g de manteiga",
+      "100g de parmesão ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho na manteiga até transparentes",
+      "Adicione o arroz arbóreo e toste por 2 minutos",
+      "Despeje o vinho branco e mexa até evaporar",
+      "Adicione o caldo quente aos poucos, concha por concha, mexendo sempre",
+      "Continue por 18 a 20 minutos até o arroz estar cremoso e al dente",
+      "Desligue o fogo, adicione manteiga e parmesão, misture bem e sirva"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Hambúrguer",
+    "categoria": "Prato Principal",
+    "tempo": "20 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?burger",
+    "ingredientes": [
+      "300g de carne moída",
+      "2 pães de hambúrguer",
+      "2 fatias de queijo cheddar",
+      "Alface, tomate e cebola",
+      "Ketchup e maionese",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Tempere a carne moída com sal e pimenta e molde em discos",
+      "Grelhe os hambúrgueres em frigideira quente por 3 a 4 minutos cada lado",
+      "Adicione o queijo sobre o hambúrguer e tampe para derreter",
+      "Torre os pães levemente na frigideira",
+      "Monte: pão, maionese, alface, tomate, hambúrguer com queijo, cebola e ketchup",
+      "Feche e sirva imediatamente"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Frango Assado",
+    "categoria": "Prato Principal",
+    "tempo": "70 min",
+    "porcoes": 5,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?roast-chicken",
+    "ingredientes": [
+      "1 frango inteiro",
+      "4 dentes de alho",
+      "Suco de 1 limão",
+      "2 colheres de azeite",
+      "Sal, pimenta e páprica",
+      "Alecrim e tomilho a gosto",
+      "1 cebola em rodelas"
+    ],
+    "modoPreparo": [
+      "Faça pequenos cortes no frango e esfregue os temperos por toda a superfície",
+      "Deixe marinar por pelo menos 30 minutos",
+      "Disponha a cebola em rodelas no fundo de uma assadeira",
+      "Coloque o frango sobre a cebola e regue com azeite",
+      "Cubra com papel-alumínio e leve ao forno a 200°C por 40 minutos",
+      "Retire o papel e asse por mais 20 minutos até dourar"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Pizza",
+    "categoria": "Prato Principal",
+    "tempo": "50 min",
+    "porcoes": 4,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?pizza",
+    "ingredientes": [
+      "2 xícaras de farinha de trigo",
+      "1 sachê de fermento biológico",
+      "200ml de água morna",
+      "1 colher de azeite",
+      "Pitada de sal e açúcar",
+      "200ml de molho de tomate",
+      "200g de mussarela",
+      "Ingredientes a gosto para cobertura"
+    ],
+    "modoPreparo": [
+      "Dissolva o fermento na água morna com açúcar e deixe descansar 5 minutos",
+      "Misture a farinha, sal, azeite e o fermento até obter massa homogênea",
+      "Sove a massa por 10 minutos e deixe descansar por 30 minutos coberta",
+      "Abra a massa em formato redondo e coloque em assadeira untada",
+      "Espalhe o molho de tomate e cubra com mussarela e os demais ingredientes",
+      "Asse a 220°C por 15 a 20 minutos até a borda dourar"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Yakisoba",
+    "categoria": "Prato Principal",
+    "tempo": "30 min",
+    "porcoes": 3,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?yakisoba",
+    "ingredientes": [
+      "300g de macarrão para yakisoba",
+      "200g de frango em tiras",
+      "1 cenoura em julienne",
+      "1/2 repolho fatiado",
+      "1 pimentão",
+      "3 colheres de shoyu",
+      "1 colher de óleo de gergelim",
+      "Gengibre a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão conforme instruções da embalagem e reserve",
+      "Refogue o frango em óleo até dourar",
+      "Adicione os legumes e refogue em fogo alto por 3 minutos",
+      "Acrescente o macarrão, o shoyu e o óleo de gergelim",
+      "Misture tudo rapidamente em fogo alto por 2 minutos",
+      "Ajuste o sal e sirva imediatamente"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Escondidinho",
+    "categoria": "Prato Principal",
+    "tempo": "60 min",
+    "porcoes": 6,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?casserole",
+    "ingredientes": [
+      "500g de carne seca desfiada",
+      "1kg de mandioca cozida",
+      "200ml de creme de leite",
+      "50g de manteiga",
+      "200g de mussarela",
+      "1 cebola picada",
+      "Sal e pimenta a gosto",
+      "Cheiro-verde"
+    ],
+    "modoPreparo": [
+      "Refogue a carne seca com cebola e reserve",
+      "Amasse a mandioca cozida com manteiga e creme de leite até virar purê",
+      "Tempere o purê com sal",
+      "Em um refratário, coloque uma camada do purê",
+      "Adicione a carne seca e cubra com mais purê",
+      "Cubra com mussarela e leve ao forno a 200°C por 20 minutos"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Moqueca",
+    "categoria": "Prato Principal",
+    "tempo": "50 min",
+    "porcoes": 4,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?fish",
+    "ingredientes": [
+      "600g de peixe em postas",
+      "400ml de leite de coco",
+      "2 tomates picados",
+      "1 pimentão vermelho",
+      "1 pimentão amarelo",
+      "1 cebola picada",
+      "Coentro e dendê a gosto",
+      "Sal e suco de limão"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe com sal, limão e reserve por 15 minutos",
+      "Refogue a cebola no dendê até dourar",
+      "Adicione os tomates e pimentões e cozinhe por 5 minutos",
+      "Adicione o leite de coco e misture",
+      "Coloque o peixe na panela e cozinhe em fogo baixo por 20 minutos",
+      "Finalize com coentro fresco e sirva com arroz e pirão"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Panqueca",
+    "categoria": "Prato Principal",
+    "tempo": "30 min",
+    "porcoes": 3,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?pancake",
+    "ingredientes": [
+      "2 ovos",
+      "1 xícara de farinha de trigo",
+      "1 xícara de leite",
+      "Pitada de sal",
+      "300g de carne moída para o recheio",
+      "200ml de molho de tomate",
+      "100g de queijo ralado"
+    ],
+    "modoPreparo": [
+      "Bata os ovos, leite, farinha e sal no liquidificador",
+      "Frite discos finos da massa em frigideira antiaderente",
+      "Refogue a carne moída com temperos para o recheio",
+      "Recheie cada panqueca e enrole",
+      "Disponha em refratário, cubra com molho de tomate e queijo",
+      "Leve ao forno a 180°C por 15 minutos e sirva"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Frango Grelhado",
+    "categoria": "Prato Principal",
+    "tempo": "25 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?grilled-chicken",
+    "ingredientes": [
+      "2 filés de frango",
+      "Suco de 1 limão",
+      "2 dentes de alho amassados",
+      "Sal, pimenta e páprica defumada",
+      "1 colher de azeite",
+      "Ervas a gosto"
+    ],
+    "modoPreparo": [
+      "Misture limão, alho, sal, pimenta, páprica e azeite",
+      "Marine os filés por 15 minutos",
+      "Aqueça a grelha ou frigideira em fogo alto",
+      "Grelhe os filés por 5 minutos de cada lado",
+      "Verifique se está bem cozido por dentro",
+      "Sirva com salada ou legumes grelhados"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Carne de Panela",
+    "categoria": "Prato Principal",
+    "tempo": "80 min",
+    "porcoes": 5,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?beef",
+    "ingredientes": [
+      "800g de acém ou músculo",
+      "1 cebola picada",
+      "3 dentes de alho",
+      "2 tomates picados",
+      "1 cenoura em rodelas",
+      "200ml de caldo de carne",
+      "Sal, pimenta e louro",
+      "Azeite para refogar"
+    ],
+    "modoPreparo": [
+      "Tempere a carne com sal e pimenta",
+      "Sele a carne em óleo quente até dourar bem todos os lados",
+      "Refogue a cebola e o alho na mesma panela",
+      "Adicione tomates, cenoura, louro e caldo",
+      "Cozinhe na pressão por 45 minutos ou em panela comum por 1h30",
+      "Desfie ou sirva a carne inteira com o molho formado"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Sushi",
+    "categoria": "Prato Principal",
+    "tempo": "90 min",
+    "porcoes": 4,
+    "dificuldade": "Difícil",
+    "imagem": "https://source.unsplash.com/featured/?sushi",
+    "ingredientes": [
+      "2 xícaras de arroz japonês",
+      "4 colheres de vinagre de arroz",
+      "200g de salmão fresco",
+      "4 folhas de nori",
+      "Pasta de wasabi",
+      "Gengibre em conserva",
+      "Shoyu para servir",
+      "Pepino e abacate"
+    ],
+    "modoPreparo": [
+      "Cozinhe o arroz japonês e tempere com vinagre, açúcar e sal ainda quente",
+      "Deixe o arroz esfriar coberto com pano úmido",
+      "Corte o salmão em fatias ou tiras uniformes",
+      "Sobre esteira de bambu, coloque a folha de nori, espalhe o arroz",
+      "Adicione recheio no centro e enrole firmemente com a esteira",
+      "Corte em fatias com faca molhada e sirva com shoyu, wasabi e gengibre"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Tacos",
+    "categoria": "Prato Principal",
+    "tempo": "30 min",
+    "porcoes": 3,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?tacos",
+    "ingredientes": [
+      "6 tortilhas de milho",
+      "300g de carne moída",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "Tempero mexicano",
+      "Alface, tomate e creme azedo",
+      "Queijo rallado",
+      "Guacamole a gosto"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e o alho em óleo",
+      "Adicione a carne moída e o tempero mexicano e cozinhe bem",
+      "Aqueça as tortilhas em frigideira seca por 30 segundos cada lado",
+      "Monte cada taco com a carne, alface e tomate",
+      "Adicione guacamole, creme azedo e queijo",
+      "Sirva imediatamente com molho de pimenta"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Curry",
+    "categoria": "Prato Principal",
+    "tempo": "45 min",
+    "porcoes": 4,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?curry",
+    "ingredientes": [
+      "500g de frango em cubos",
+      "400ml de leite de coco",
+      "2 colheres de pasta de curry",
+      "1 cebola picada",
+      "3 dentes de alho",
+      "1 pedaço de gengibre",
+      "2 tomates picados",
+      "Coentro fresco e sal"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola, alho e gengibre em óleo até dourar",
+      "Adicione a pasta de curry e misture bem por 1 minuto",
+      "Junte o frango e sele por 5 minutos",
+      "Adicione os tomates e misture",
+      "Despeje o leite de coco e misture bem",
+      "Cozinhe em fogo médio por 25 minutos e finalize com coentro"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Paella",
+    "categoria": "Prato Principal",
+    "tempo": "70 min",
+    "porcoes": 6,
+    "dificuldade": "Difícil",
+    "imagem": "https://source.unsplash.com/featured/?paella",
+    "ingredientes": [
+      "2 xícaras de arroz arbóreo",
+      "300g de camarão",
+      "300g de lula em anéis",
+      "300g de mariscos",
+      "1 pimentão vermelho e amarelo",
+      "1 cebola picada",
+      "Açafrão, sal e páprica defumada",
+      "1L de caldo de frutos do mar"
+    ],
+    "modoPreparo": [
+      "Refogue a cebola e os pimentões em azeite abundante",
+      "Adicione o arroz e toste por 2 minutos",
+      "Tempere com açafrão, páprica e sal",
+      "Adicione o caldo quente e misture",
+      "Distribua os frutos do mar por cima sem mexer mais",
+      "Cozinhe em fogo médio-baixo por 20 minutos até o arroz absorver o caldo"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Salada Caesar",
+    "categoria": "Salada",
+    "tempo": "15 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?salad",
+    "ingredientes": [
+      "1 pé de alface romana",
+      "100g de croutons",
+      "50g de parmesão laminado",
+      "3 colheres de molho Caesar",
+      "1 filé de frango grelhado (opcional)",
+      "Pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Rasgue as folhas da alface e coloque em uma tigela grande",
+      "Adicione os croutons e o parmesão",
+      "Regue com o molho Caesar e misture delicadamente",
+      "Fatie o frango grelhado e disponha por cima se desejar",
+      "Finalize com pimenta e mais parmesão",
+      "Sirva imediatamente para manter a crocância"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Salada Grega",
+    "categoria": "Salada",
+    "tempo": "10 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?greek-salad",
+    "ingredientes": [
+      "2 tomates em cubos",
+      "1 pepino em rodelas",
+      "1/2 cebola roxa fatiada",
+      "100g de queijo feta",
+      "Azeitonas pretas a gosto",
+      "Azeite, orégano e sal"
+    ],
+    "modoPreparo": [
+      "Corte os tomates e o pepino em cubos",
+      "Fatie a cebola roxa e misture com os legumes",
+      "Adicione as azeitonas pretas",
+      "Esfarele o queijo feta por cima",
+      "Tempere com azeite, orégano e sal",
+      "Misture levemente e sirva fresca"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Salada de Frango",
+    "categoria": "Salada",
+    "tempo": "20 min",
+    "porcoes": 3,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?chicken-salad",
+    "ingredientes": [
+      "2 filés de frango cozidos e desfiados",
+      "1 xícara de milho",
+      "1 xícara de ervilha",
+      "2 cenouras raladas",
+      "3 colheres de maionese",
+      "Sal e pimenta a gosto",
+      "Cheiro-verde"
+    ],
+    "modoPreparo": [
+      "Cozinhe e desfie o frango em pedaços médios",
+      "Misture o frango com o milho, ervilha e cenoura",
+      "Adicione a maionese e misture bem",
+      "Tempere com sal, pimenta e cheiro-verde",
+      "Leve à geladeira por 15 minutos antes de servir",
+      "Sirva gelada como acompanhamento"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Salada de Atum",
+    "categoria": "Salada",
+    "tempo": "15 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?tuna-salad",
+    "ingredientes": [
+      "2 latas de atum em pedaços",
+      "1/2 cebola picada",
+      "1 tomate picado",
+      "Azeitonas verdes a gosto",
+      "2 colheres de azeite",
+      "Sal, limão e cheiro-verde"
+    ],
+    "modoPreparo": [
+      "Escorra bem o atum e coloque em uma tigela",
+      "Adicione a cebola, tomate e azeitonas",
+      "Tempere com azeite, limão e sal",
+      "Misture delicadamente para não desmanchar o atum",
+      "Finalize com cheiro-verde picado",
+      "Sirva com torradas ou folhas verdes"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Salada de Macarrão",
+    "categoria": "Salada",
+    "tempo": "25 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?pasta-salad",
+    "ingredientes": [
+      "300g de macarrão parafuso cozido",
+      "1/2 pimentão vermelho picado",
+      "1/2 pimentão verde picado",
+      "1 xícara de milho",
+      "100g de presunto em cubos",
+      "3 colheres de maionese",
+      "Sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Cozinhe o macarrão al dente e resfrie em água fria",
+      "Misture o macarrão com os pimentões, milho e presunto",
+      "Adicione a maionese e misture bem",
+      "Tempere com sal e pimenta",
+      "Leve à geladeira por 20 minutos",
+      "Sirva fria como acompanhamento ou prato principal leve"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Salada de Batata",
+    "categoria": "Salada",
+    "tempo": "30 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?potato-salad",
+    "ingredientes": [
+      "5 batatas médias cozidas",
+      "3 ovos cozidos",
+      "1/2 cebola picada",
+      "4 colheres de maionese",
+      "Mostarda a gosto",
+      "Sal, pimenta e cheiro-verde"
+    ],
+    "modoPreparo": [
+      "Cozinhe as batatas com casca até ficarem macias e deixe esfriar",
+      "Descasque e corte as batatas em cubos",
+      "Pique os ovos cozidos",
+      "Misture batata, ovo e cebola",
+      "Adicione maionese e mostarda, misture bem",
+      "Tempere, finalize com cheiro-verde e sirva fria"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Salada de Quinoa",
+    "categoria": "Salada",
+    "tempo": "20 min",
+    "porcoes": 3,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?quinoa",
+    "ingredientes": [
+      "1 xícara de quinoa cozida",
+      "1 pepino picado",
+      "1 tomate picado",
+      "1/4 de cebola roxa",
+      "Hortelã fresca",
+      "Suco de 1 limão e azeite",
+      "Sal a gosto"
+    ],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções e deixe esfriar",
+      "Pique o pepino, tomate e a cebola roxa",
+      "Misture a quinoa com os legumes",
+      "Tempere com limão, azeite e sal",
+      "Finalize com folhas de hortelã",
+      "Refrigere por 10 minutos antes de servir"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Salada Caprese",
+    "categoria": "Salada",
+    "tempo": "10 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?caprese",
+    "ingredientes": [
+      "2 tomates grandes maduros",
+      "200g de mussarela de búfala",
+      "Folhas de manjericão fresco",
+      "Azeite extra-virgem",
+      "Sal grosso e pimenta",
+      "Vinagre balsâmico a gosto"
+    ],
+    "modoPreparo": [
+      "Fatie os tomates e a mussarela de búfala em rodelas",
+      "Intercale as fatias de tomate e mussarela no prato",
+      "Coloque as folhas de manjericão entre as fatias",
+      "Regue com azeite extra-virgem",
+      "Tempere com sal grosso e pimenta",
+      "Finalize com um fio de vinagre balsâmico e sirva"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Salada de Frutas",
+    "categoria": "Salada",
+    "tempo": "15 min",
+    "porcoes": 3,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?fruit-salad",
+    "ingredientes": [
+      "1/2 melancia",
+      "2 mangas",
+      "1 abacaxi pequeno",
+      "2 bananas",
+      "1 xícara de uvas",
+      "Suco de 1 laranja",
+      "Hortelã e mel a gosto"
+    ],
+    "modoPreparo": [
+      "Corte todas as frutas em pedaços de tamanho uniforme",
+      "Coloque em uma tigela grande",
+      "Regue com o suco de laranja",
+      "Adicione um fio de mel por cima",
+      "Misture delicadamente",
+      "Decore com folhas de hortelã e sirva gelada"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Salada Verde",
+    "categoria": "Salada",
+    "tempo": "10 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?green-salad",
+    "ingredientes": [
+      "Mix de folhas verdes",
+      "1/2 pepino",
+      "Broto de feijão a gosto",
+      "Semente de girassol",
+      "Azeite e vinagre",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Lave e seque bem as folhas",
+      "Corte o pepino em meias-luas",
+      "Monte as folhas em um prato",
+      "Adicione pepino, brotos e sementes",
+      "Tempere com azeite, vinagre, sal e pimenta",
+      "Sirva imediatamente para não murchar"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Bolo de Chocolate",
+    "categoria": "Sobremesa",
+    "tempo": "50 min",
+    "porcoes": 6,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?chocolate-cake",
+    "ingredientes": [
+      "2 xícaras de farinha de trigo",
+      "1 xícara de cacau em pó",
+      "2 xícaras de açúcar",
+      "3 ovos",
+      "1 xícara de leite",
+      "1/2 xícara de óleo",
+      "1 colher de fermento em pó",
+      "Chocolate para cobertura"
+    ],
+    "modoPreparo": [
+      "Misture os ingredientes secos em uma tigela",
+      "Bata os ovos com o leite e o óleo",
+      "Una os ingredientes úmidos aos secos e misture",
+      "Adicione o fermento por último e misture delicadamente",
+      "Asse em forma untada a 180°C por 35 minutos",
+      "Desenforme e cubra com ganache de chocolate"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Brigadeiro",
+    "categoria": "Sobremesa",
+    "tempo": "20 min",
+    "porcoes": 10,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?brigadeiro",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "3 colheres de cacau em pó",
+      "1 colher de manteiga",
+      "Chocolate granulado para enrolar"
+    ],
+    "modoPreparo": [
+      "Misture o leite condensado, o cacau e a manteiga em uma panela",
+      "Cozinhe em fogo médio mexendo sempre",
+      "Quando soltar do fundo da panela, está no ponto",
+      "Despeje em prato untado e deixe esfriar completamente",
+      "Unte as mãos com manteiga e enrole em bolinhas",
+      "Passe no granulado e coloque em forminhas"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Pudim",
+    "categoria": "Sobremesa",
+    "tempo": "60 min",
+    "porcoes": 8,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?pudding",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "A mesma medida de leite integral",
+      "3 ovos inteiros",
+      "1 xícara de açúcar para calda",
+      "1/4 de xícara de água para calda"
+    ],
+    "modoPreparo": [
+      "Faça a calda: derreta o açúcar com água até dourar e caramelize a forma",
+      "Bata no liquidificador o leite condensado, leite e ovos",
+      "Despeje a mistura na forma caramelizada",
+      "Cubra com papel-alumínio",
+      "Leve ao banho-maria no forno a 180°C por 40 minutos",
+      "Deixe esfriar, leve à geladeira e desenforme antes de servir"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Sorvete",
+    "categoria": "Sobremesa",
+    "tempo": "10 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?ice-cream",
+    "ingredientes": [
+      "4 bananas congeladas",
+      "4 colheres de cacau em pó",
+      "200ml de leite de coco",
+      "Mel a gosto",
+      "Frutas e granola para servir"
+    ],
+    "modoPreparo": [
+      "Descasque e congele as bananas por pelo menos 4 horas",
+      "Bata as bananas congeladas no processador",
+      "Adicione o cacau e o leite de coco e bata até cremoso",
+      "Adoce com mel se necessário",
+      "Sirva imediatamente como sorvete mole",
+      "Ou congele por mais 1 hora para consistência mais firme"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Mousse",
+    "categoria": "Sobremesa",
+    "tempo": "30 min",
+    "porcoes": 5,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?mousse",
+    "ingredientes": [
+      "200g de chocolate meio amargo",
+      "3 ovos separados",
+      "3 colheres de açúcar",
+      "200ml de creme de leite fresco",
+      "Raspas de chocolate para decorar"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate em banho-maria e deixe amornar",
+      "Bata as claras em neve com o açúcar",
+      "Misture as gemas ao chocolate derretido",
+      "Adicione o creme de leite batido em ponto de chantili",
+      "Incorpore as claras em neve delicadamente",
+      "Distribua em taças e leve à geladeira por 2 horas"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Torta de Limão",
+    "categoria": "Sobremesa",
+    "tempo": "45 min",
+    "porcoes": 6,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?lemon-pie",
+    "ingredientes": [
+      "200g de biscoito maisena triturado",
+      "100g de manteiga",
+      "1 lata de leite condensado",
+      "Suco de 3 limões",
+      "200ml de creme de leite",
+      "Raspas de limão para decorar"
+    ],
+    "modoPreparo": [
+      "Misture o biscoito triturado com a manteiga derretida e forre a forma",
+      "Leve a base ao forno a 180°C por 10 minutos",
+      "Bata o leite condensado com o suco de limão e o creme de leite",
+      "Despeje o recheio sobre a base fria",
+      "Leve à geladeira por 3 horas",
+      "Decore com raspas de limão e chantili antes de servir"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Cheesecake",
+    "categoria": "Sobremesa",
+    "tempo": "60 min",
+    "porcoes": 6,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?cheesecake",
+    "ingredientes": [
+      "200g de biscoito triturado",
+      "100g de manteiga",
+      "400g de cream cheese",
+      "1 xícara de açúcar",
+      "3 ovos",
+      "1 colher de extrato de baunilha",
+      "Calda de frutas vermelhas"
+    ],
+    "modoPreparo": [
+      "Faça a base: biscoito triturado com manteiga e pressione na forma",
+      "Bata o cream cheese com açúcar até cremoso",
+      "Adicione os ovos um a um, batendo bem",
+      "Acrescente a baunilha e misture",
+      "Despeje sobre a base e asse a 160°C por 40 minutos",
+      "Deixe esfriar, leve à geladeira e sirva com calda de frutas"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Brownie",
+    "categoria": "Sobremesa",
+    "tempo": "35 min",
+    "porcoes": 6,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?brownie",
+    "ingredientes": [
+      "200g de chocolate meio amargo",
+      "100g de manteiga",
+      "1 xícara de açúcar",
+      "2 ovos",
+      "3/4 de xícara de farinha de trigo",
+      "1/2 xícara de cacau em pó",
+      "Nozes picadas a gosto"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate com a manteiga em banho-maria",
+      "Misture o açúcar ao chocolate e mexa bem",
+      "Adicione os ovos um a um",
+      "Peneire e incorpore a farinha e o cacau",
+      "Adicione as nozes se desejar",
+      "Asse em forma untada a 180°C por 20 a 25 minutos"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Doce de Leite",
+    "categoria": "Sobremesa",
+    "tempo": "90 min",
+    "porcoes": 5,
+    "dificuldade": "Difícil",
+    "imagem": "https://source.unsplash.com/featured/?dulce-de-leche",
+    "ingredientes": [
+      "1 litro de leite integral",
+      "300g de açúcar",
+      "1 colher de bicarbonato de sódio",
+      "1 pau de canela (opcional)",
+      "Baunilha a gosto"
+    ],
+    "modoPreparo": [
+      "Misture o leite, o açúcar e o bicarbonato em uma panela grande",
+      "Leve ao fogo médio mexendo até dissolver o açúcar",
+      "Cozinhe em fogo baixo mexendo de vez em quando por 1 hora",
+      "Continue mexendo com mais frequência quando começar a escurecer",
+      "Retire do fogo quando atingir ponto de doce de leite cremoso",
+      "Despeje em vidros esterilizados e deixe esfriar antes de fechar"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Gelatina",
+    "categoria": "Sobremesa",
+    "tempo": "15 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?gelatin",
+    "ingredientes": [
+      "2 caixas de gelatina colorida",
+      "500ml de água quente",
+      "500ml de água fria",
+      "200ml de creme de leite (opcional)",
+      "Frutas frescas a gosto"
+    ],
+    "modoPreparo": [
+      "Dissolva a gelatina em pó na água quente mexendo bem",
+      "Adicione a água fria e misture",
+      "Se quiser gelatina cremosa, adicione o creme de leite e bata",
+      "Despeje em formas ou taças individuais",
+      "Adicione frutas se desejar",
+      "Leve à geladeira por no mínimo 3 horas antes de servir"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Tiramisu",
+    "categoria": "Sobremesa",
+    "tempo": "40 min",
+    "porcoes": 6,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?tiramisu",
+    "ingredientes": [
+      "300g de biscoito champagne",
+      "500g de mascarpone",
+      "4 ovos separados",
+      "4 colheres de açúcar",
+      "200ml de café forte frio",
+      "2 colheres de licor de café",
+      "Cacau em pó para polvilhar"
+    ],
+    "modoPreparo": [
+      "Bata as gemas com o açúcar até ficarem pálidas e cremosas",
+      "Misture o mascarpone às gemas batidas",
+      "Bata as claras em neve e incorpore à mistura",
+      "Molhe rapidamente os biscoitos no café com licor",
+      "Monte em camadas: biscoitos, creme, biscoitos, creme",
+      "Leve à geladeira por 4 horas e polvilhe cacau antes de servir"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Panna Cotta",
+    "categoria": "Sobremesa",
+    "tempo": "25 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?panna-cotta",
+    "ingredientes": [
+      "500ml de creme de leite fresco",
+      "50g de açúcar",
+      "1 fava de baunilha",
+      "10g de gelatina em pó sem sabor",
+      "50ml de leite para dissolver a gelatina",
+      "Calda de frutas para servir"
+    ],
+    "modoPreparo": [
+      "Hidrate a gelatina no leite frio por 5 minutos",
+      "Aqueça o creme com açúcar e baunilha sem deixar ferver",
+      "Retire a fava, adicione a gelatina hidratada e mexa até dissolver",
+      "Despeje em forminhas úmidas",
+      "Leve à geladeira por 4 horas",
+      "Desenforme e sirva com calda de frutas vermelhas"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Pavê",
+    "categoria": "Sobremesa",
+    "tempo": "30 min",
+    "porcoes": 8,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?trifle",
+    "ingredientes": [
+      "1 pacote de biscoito champagne",
+      "1 lata de leite condensado",
+      "400ml de leite",
+      "1 caixa de creme de leite",
+      "3 gemas",
+      "200ml de chocolate em pó para calda",
+      "Coco ralado ou granulado"
+    ],
+    "modoPreparo": [
+      "Faça o creme: cozinhe leite condensado, leite e gemas até engrossar",
+      "Deixe o creme esfriar",
+      "Molhe os biscoitos levemente no chocolate ou café",
+      "Monte em refratário: biscoitos, creme, biscoitos, creme",
+      "Finalize com creme de leite batido por cima",
+      "Polvilhe coco ou granulado e leve à geladeira por 2 horas"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Bolo de Cenoura",
+    "categoria": "Sobremesa",
+    "tempo": "55 min",
+    "porcoes": 8,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?carrot-cake",
+    "ingredientes": [
+      "3 cenouras médias",
+      "3 ovos",
+      "1 xícara de óleo",
+      "2 xícaras de açúcar",
+      "2 xícaras de farinha de trigo",
+      "1 colher de fermento",
+      "Cobertura de chocolate"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador as cenouras, os ovos e o óleo",
+      "Transfira para tigela e adicione o açúcar",
+      "Peneire e adicione a farinha aos poucos, misturando",
+      "Adicione o fermento e misture delicadamente",
+      "Asse em forma untada a 180°C por 35 a 40 minutos",
+      "Desenforme e cubra com cobertura de chocolate quente"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Crepe",
+    "categoria": "Sobremesa",
+    "tempo": "25 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?crepe",
+    "ingredientes": [
+      "1 xícara de farinha de trigo",
+      "2 ovos",
+      "300ml de leite",
+      "1 colher de manteiga",
+      "Pitada de sal",
+      "Nutella, doce de leite ou frutas para recheio"
+    ],
+    "modoPreparo": [
+      "Bata no liquidificador a farinha, ovos, leite, manteiga e sal",
+      "Deixe a massa descansar por 15 minutos",
+      "Aqueça frigideira antiaderente e passe manteiga",
+      "Despeje uma concha de massa e espalhe girando a frigideira",
+      "Frite por 1 minuto, vire e frite mais 30 segundos",
+      "Recheie a gosto, dobre e sirva com calda de chocolate ou açúcar de confeiteiro"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Profiterole",
+    "categoria": "Sobremesa",
+    "tempo": "50 min",
+    "porcoes": 6,
+    "dificuldade": "Difícil",
+    "imagem": "https://source.unsplash.com/featured/?profiterole",
+    "ingredientes": [
+      "250ml de água",
+      "100g de manteiga",
+      "150g de farinha de trigo",
+      "4 ovos",
+      "Pitada de sal",
+      "400ml de creme chantili para recheio",
+      "Ganache de chocolate para cobertura"
+    ],
+    "modoPreparo": [
+      "Ferva a água com manteiga e sal",
+      "Adicione a farinha de uma vez e misture vigorosamente até desgrudar da panela",
+      "Retire do fogo e adicione os ovos um a um, batendo bem",
+      "Coloque colheradas em assadeira forrada e asse a 200°C por 25 minutos",
+      "Deixe esfriar completamente e rechei com chantili usando saco de confeitar",
+      "Cubra com ganache de chocolate quente e sirva"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Quindim",
+    "categoria": "Sobremesa",
+    "tempo": "45 min",
+    "porcoes": 6,
+    "dificuldade": "Média",
+    "imagem": "https://source.unsplash.com/featured/?custard",
+    "ingredientes": [
+      "6 gemas",
+      "1 xícara de açúcar",
+      "1 xícara de coco ralado",
+      "1 colher de manteiga",
+      "2 colheres de água",
+      "Açúcar para caramelizar as forminhas"
+    ],
+    "modoPreparo": [
+      "Bata as gemas com o açúcar até ficar esbranquiçado",
+      "Adicione o coco ralado, a manteiga e a água",
+      "Misture bem e deixe descansar por 20 minutos",
+      "Caramelize as forminhas com açúcar",
+      "Encha as forminhas e asse em banho-maria a 160°C por 30 minutos",
+      "Deixe esfriar, leve à geladeira e desenforme antes de servir"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Romeu e Julieta",
+    "categoria": "Sobremesa",
+    "tempo": "10 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?guava-cheese",
+    "ingredientes": [
+      "300g de goiabada",
+      "200g de queijo meia cura",
+      "Ou queijo minas padrão"
+    ],
+    "modoPreparo": [
+      "Corte a goiabada em fatias ou cubos",
+      "Corte o queijo em fatias do mesmo tamanho",
+      "Monte intercalando uma fatia de queijo com uma de goiabada",
+      "Sirva à temperatura ambiente para melhor sabor",
+      "Pode ser aquecido levemente no micro-ondas por 20 segundos",
+      "Sirva como sobremesa ou lanche"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Waffle",
+    "categoria": "Sobremesa",
+    "tempo": "20 min",
+    "porcoes": 3,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?waffle",
+    "ingredientes": [
+      "2 xícaras de farinha de trigo",
+      "2 colheres de açúcar",
+      "1 colher de fermento",
+      "2 ovos separados",
+      "1 xícara e meia de leite",
+      "4 colheres de manteiga derretida",
+      "Mel, frutas ou chantili para servir"
+    ],
+    "modoPreparo": [
+      "Misture os ingredientes secos em uma tigela",
+      "Bata as gemas com o leite e a manteiga",
+      "Una os ingredientes úmidos aos secos",
+      "Bata as claras em neve e incorpore delicadamente",
+      "Aqueça a wafleira, pincele com manteiga e despeje a massa",
+      "Asse por 3 a 4 minutos e sirva com topping de sua preferência"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Creme Brûlée",
+    "categoria": "Sobremesa",
+    "tempo": "50 min",
+    "porcoes": 4,
+    "dificuldade": "Difícil",
+    "imagem": "https://source.unsplash.com/featured/?creme-brulee",
+    "ingredientes": [
+      "500ml de creme de leite fresco",
+      "5 gemas",
+      "100g de açúcar",
+      "1 fava de baunilha",
+      "Açúcar refinado para caramelizar"
+    ],
+    "modoPreparo": [
+      "Aqueça o creme com a fava de baunilha sem ferver",
+      "Bata as gemas com o açúcar até pálido",
+      "Adicione o creme quente às gemas aos poucos, mexendo",
+      "Despeje em ramequins e asse em banho-maria a 150°C por 35 minutos",
+      "Deixe esfriar e leve à geladeira por 2 horas",
+      "Na hora de servir, polvilhe açúcar e queime com maçarico"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Milkshake",
+    "categoria": "Bebida",
+    "tempo": "10 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?milkshake",
+    "ingredientes": [
+      "3 bolas de sorvete (baunilha ou chocolate)",
+      "200ml de leite gelado",
+      "2 colheres de calda de chocolate",
+      "Chantili para servir",
+      "Cereja para decorar"
+    ],
+    "modoPreparo": [
+      "Coloque o sorvete, o leite e a calda no liquidificador",
+      "Bata por 30 segundos até ficar cremoso",
+      "Prove e ajuste a doçura se necessário",
+      "Sirva em copo alto e gelado",
+      "Finalize com chantili e cereja",
+      "Sirva imediatamente com canudo"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Suco de Laranja",
+    "categoria": "Bebida",
+    "tempo": "5 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?orange-juice",
+    "ingredientes": [
+      "6 laranjas",
+      "Açúcar a gosto (opcional)",
+      "Gelo a gosto"
+    ],
+    "modoPreparo": [
+      "Corte as laranjas ao meio",
+      "Esprema as laranjas no espremedor",
+      "Coe o suco se preferir sem polpa",
+      "Adoce a gosto",
+      "Adicione gelo e sirva imediatamente"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Café",
+    "categoria": "Bebida",
+    "tempo": "5 min",
+    "porcoes": 1,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?coffee",
+    "ingredientes": [
+      "2 colheres de café em pó",
+      "200ml de água quente",
+      "Açúcar a gosto"
+    ],
+    "modoPreparo": [
+      "Ferva a água",
+      "Coloque o café em pó no coador ou cafeteira",
+      "Despeje a água quente lentamente sobre o café",
+      "Aguarde o café coar completamente",
+      "Adoce a gosto e sirva quente"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Chá",
+    "categoria": "Bebida",
+    "tempo": "10 min",
+    "porcoes": 1,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?tea",
+    "ingredientes": [
+      "1 sachê ou 1 colher de chá a granel",
+      "200ml de água quente",
+      "Mel ou açúcar a gosto",
+      "Limão (opcional)"
+    ],
+    "modoPreparo": [
+      "Ferva a água",
+      "Despeje sobre o sachê ou ervas em uma caneca",
+      "Tampe e deixe em infusão por 5 a 7 minutos",
+      "Retire o sachê ou coe as ervas",
+      "Adoce com mel ou açúcar e esprema o limão se desejar",
+      "Sirva quente"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Smoothie",
+    "categoria": "Bebida",
+    "tempo": "10 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?smoothie",
+    "ingredientes": [
+      "1 banana congelada",
+      "1 xícara de morango",
+      "200ml de iogurte natural",
+      "100ml de leite",
+      "Mel a gosto",
+      "Sementes de chia (opcional)"
+    ],
+    "modoPreparo": [
+      "Coloque todos os ingredientes no liquidificador",
+      "Bata em alta velocidade por 1 minuto",
+      "Verifique a consistência e adicione mais leite se necessário",
+      "Prove e adoce com mel se precisar",
+      "Despeje em copos e polvilhe chia se desejar",
+      "Sirva imediatamente gelado"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "Limonada",
+    "categoria": "Bebida",
+    "tempo": "10 min",
+    "porcoes": 4,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?lemonade",
+    "ingredientes": [
+      "4 limões",
+      "4 colheres de açúcar",
+      "1 litro de água gelada",
+      "Gelo e folhas de hortelã"
+    ],
+    "modoPreparo": [
+      "Esprema o suco dos limões",
+      "Dissolva o açúcar em um pouco de água morna",
+      "Misture o suco com a calda e complete com água gelada",
+      "Ajuste o dulçor",
+      "Sirva em jarro com gelo e folhas de hortelã",
+      "Decore com rodelas de limão"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Vitamina de Banana",
+    "categoria": "Bebida",
+    "tempo": "5 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?banana-smoothie",
+    "ingredientes": [
+      "2 bananas maduras",
+      "400ml de leite gelado",
+      "2 colheres de açúcar",
+      "Canela em pó a gosto"
+    ],
+    "modoPreparo": [
+      "Descasque as bananas e coloque no liquidificador",
+      "Adicione o leite gelado e o açúcar",
+      "Bata até ficar homogêneo e cremoso",
+      "Prove e ajuste o dulçor",
+      "Sirva em copos com uma pitada de canela por cima"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Chocolate Quente",
+    "categoria": "Bebida",
+    "tempo": "10 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?hot-chocolate",
+    "ingredientes": [
+      "500ml de leite integral",
+      "4 colheres de chocolate em pó",
+      "2 colheres de açúcar",
+      "1 colher de amido de milho",
+      "Chantili e canela para servir"
+    ],
+    "modoPreparo": [
+      "Misture o chocolate, açúcar e amido com um pouco de leite frio",
+      "Aqueça o restante do leite em uma panela",
+      "Adicione a mistura ao leite quente mexendo sem parar",
+      "Cozinhe em fogo médio até engrossar levemente",
+      "Despeje em canecas",
+      "Finalize com chantili e polvilhe canela"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Caipirinha",
+    "categoria": "Bebida",
+    "tempo": "10 min",
+    "porcoes": 2,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?caipirinha",
+    "ingredientes": [
+      "2 limões taiti",
+      "4 colheres de açúcar",
+      "100ml de cachaça",
+      "Gelo picado a gosto"
+    ],
+    "modoPreparo": [
+      "Corte os limões em 4 partes e retire o fio branco do meio",
+      "Coloque os limões e o açúcar no copo ou socador",
+      "Macere bem para extrair o suco e os óleos da casca",
+      "Adicione o gelo picado",
+      "Despeje a cachaça e misture",
+      "Sirva imediatamente bem gelada"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Água de Coco",
+    "categoria": "Bebida",
+    "tempo": "5 min",
+    "porcoes": 1,
+    "dificuldade": "Fácil",
+    "imagem": "https://source.unsplash.com/featured/?coconut-water",
+    "ingredientes": [
+      "1 coco verde",
+      "Gelo a gosto",
+      "Suco de limão (opcional)"
+    ],
+    "modoPreparo": [
+      "Faça um furo no coco verde com um furador ou faca",
+      "Despeje a água de coco em um copo com gelo",
+      "Adicione suco de limão se desejar",
+      "Sirva imediatamente",
+      "Pode também usar água de coco industrializada gelada"
+    ]
+  }
 ]
