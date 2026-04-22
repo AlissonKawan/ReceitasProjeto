@@ -6,7 +6,7 @@
     "tempo": "40 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?chicken",
+    "imagem": "https://www.receitasdasemana.com/wp-content/uploads/2023/05/Arroz-com-legumes-e-frango-grelhado-receita-pra-variar-o-cardapio.jpg",
     "ingredientes": [
       "500g de frango em cubos",
       "2 xícaras de arroz",
@@ -28,12 +28,12 @@
   },
   {
     "id": 2,
-    "nome": "Lasanha",
+    "nome": "Lasanha de carne",
     "categoria": "Prato Principal",
     "tempo": "60 min",
     "porcoes": 6,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?lasagna",
+    "imagem": "https://cdn.casaeculinaria.com/wp-content/uploads/2023/12/10120623/Lasanha-a-bolonhesa-com-carne-moida.webp",
     "ingredientes": [
       "500g de massa para lasanha",
       "500g de carne moída",
@@ -60,7 +60,7 @@
     "tempo": "90 min",
     "porcoes": 8,
     "dificuldade": "Difícil",
-    "imagem": "https://source.unsplash.com/featured/?feijoada",
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.3Y7qOOH3xzy2UszU09sbmAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "500g de feijão preto",
       "300g de carne seca",
@@ -83,12 +83,12 @@
   },
   {
     "id": 4,
-    "nome": "Strogonoff",
+    "nome": "Strogonoff de carne",
     "categoria": "Prato Principal",
     "tempo": "30 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?strogonoff",
+    "imagem": "https://tse4.mm.bing.net/th/id/OIP.RW7gvN16Ex9LnNenXJ7iOQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "500g de filé mignon em tiras",
       "1 cebola picada",
@@ -111,12 +111,12 @@
   },
   {
     "id": 5,
-    "nome": "Macarrão",
+    "nome": "Macarrão ao molho de tomate",
     "categoria": "Prato Principal",
     "tempo": "25 min",
     "porcoes": 3,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?pasta",
+    "imagem": "https://i.pinimg.com/736x/15/8d/46/158d46300b8e843d3c32a4aeafc6b912.jpg",
     "ingredientes": [
       "300g de macarrão espaguete",
       "300ml de molho de tomate",
@@ -142,7 +142,7 @@
     "tempo": "35 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?steak",
+    "imagem": "https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/03/comofritarbifecombatatasparaoalmoco.jpg",
     "ingredientes": [
       "2 bifes de alcatra",
       "3 batatas médias",
@@ -167,7 +167,7 @@
     "tempo": "45 min",
     "porcoes": 4,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?risotto",
+    "imagem": "https://anamariareceitas.com.br/wp-content/uploads/2022/10/Risoto-com-quatro-queijos-1024x561.jpg",
     "ingredientes": [
       "2 xícaras de arroz arbóreo",
       "1L de caldo de legumes quente",
@@ -194,7 +194,7 @@
     "tempo": "20 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?burger",
+    "imagem": "https://manualdohomemmoderno.com.br/files/2020/05/como-fazer-o-melhor-hamburguer-caseiro-como-escolher-as-carnes-e-2-receitas-simples-e-praticas-como-fazer-o-melhor-hamburguer-caseiro-como-escolher-as-carnes-e-2-receitas-simples-e-praticas-4.jpg",
     "ingredientes": [
       "300g de carne moída",
       "2 pães de hambúrguer",
@@ -219,7 +219,7 @@
     "tempo": "70 min",
     "porcoes": 5,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?roast-chicken",
+    "imagem": "https://www.gadoo.com.br/wp-content/uploads/2023/08/Frango-assado.webp",
     "ingredientes": [
       "1 frango inteiro",
       "4 dentes de alho",
@@ -240,12 +240,12 @@
   },
   {
     "id": 10,
-    "nome": "Pizza",
+    "nome": "Pizza de queijo",
     "categoria": "Prato Principal",
     "tempo": "50 min",
     "porcoes": 4,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?pizza",
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.RzD0BvN5QSfxZD6wM02fLAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "2 xícaras de farinha de trigo",
       "1 sachê de fermento biológico",
@@ -272,7 +272,7 @@
     "tempo": "30 min",
     "porcoes": 3,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?yakisoba",
+    "imagem": "https://i2.wp.com/cdn.momsdish.com/wp-content/uploads/2020/05/Simple-Yakisoba-Noodles-Recipe-019-scaled.jpg?ssl=1&resize=1706%2C1706",
     "ingredientes": [
       "300g de macarrão para yakisoba",
       "200g de frango em tiras",
@@ -294,12 +294,12 @@
   },
   {
     "id": 12,
-    "nome": "Escondidinho",
+    "nome": "Escondidinho de carne seca",
     "categoria": "Prato Principal",
     "tempo": "60 min",
     "porcoes": 6,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?casserole",
+    "imagem": "https://bakeandcakegourmet.com.br/uploads/site/receitas/escondidinho-de-carne-moida-x3hxxplr.jpg",
     "ingredientes": [
       "500g de carne seca desfiada",
       "1kg de mandioca cozida",
@@ -326,7 +326,7 @@
     "tempo": "50 min",
     "porcoes": 4,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?fish",
+    "imagem": "https://img.delicious.com.au/dzKvzUSx/del/2015/10/moqueca-brazilian-fish-stew-14577-1.jpg",
     "ingredientes": [
       "600g de peixe em postas",
       "400ml de leite de coco",
@@ -348,12 +348,12 @@
   },
   {
     "id": 14,
-    "nome": "Panqueca",
+    "nome": "Panqueca de carne",
     "categoria": "Prato Principal",
     "tempo": "30 min",
     "porcoes": 3,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?pancake",
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP.Nt_u_NXo0elZ-GMEZ8L_5AHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "2 ovos",
       "1 xícara de farinha de trigo",
@@ -379,7 +379,7 @@
     "tempo": "25 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?grilled-chicken",
+    "imagem": "https://www.comidaereceitas.com.br/wp-content/uploads/2020/11/frango_grelhado.jpg",
     "ingredientes": [
       "2 filés de frango",
       "Suco de 1 limão",
@@ -404,7 +404,7 @@
     "tempo": "80 min",
     "porcoes": 5,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?beef",
+    "imagem": "https://th.bing.com/th/id/R.863e58772c51b111c742ccebe63d9510?rik=JXXQsUSpurqi1w&riu=http%3a%2f%2fcomesulbeef.com.br%2fwp-content%2fuploads%2f2017%2f02%2fcarne-de-panela-005.png&ehk=5S235SU5kwU1yJVbcN08qw%2fHvDg0I9JC2OR70K9Yt9A%3d&risl=&pid=ImgRaw&r=0",
     "ingredientes": [
       "800g de acém ou músculo",
       "1 cebola picada",
@@ -426,12 +426,12 @@
   },
   {
     "id": 17,
-    "nome": "Sushi",
+    "nome": "Sushi futomaki",
     "categoria": "Prato Principal",
     "tempo": "90 min",
     "porcoes": 4,
     "dificuldade": "Difícil",
-    "imagem": "https://source.unsplash.com/featured/?sushi",
+    "imagem": "https://recipezed.com/wp-content/uploads/2025/08/pakoblog_Easy_Homemade_Sushi_Rolls_angle_shot_kitchen_backgroun_5e51768a-e9e4-4fb6-9486-d9918264a148.webp",
     "ingredientes": [
       "2 xícaras de arroz japonês",
       "4 colheres de vinagre de arroz",
@@ -453,12 +453,12 @@
   },
   {
     "id": 18,
-    "nome": "Tacos",
+    "nome": "Tacos mexicanos",
     "categoria": "Prato Principal",
     "tempo": "30 min",
     "porcoes": 3,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?tacos",
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.sfbcMxbX1f7lKbGAk4KxiAHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "6 tortilhas de milho",
       "300g de carne moída",
@@ -485,7 +485,7 @@
     "tempo": "45 min",
     "porcoes": 4,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?curry",
+    "imagem": "https://theflavoursofkitchen.com/wp-content/uploads/2020/10/Slow-Cooker-Chicken-Coconut-Curry-4.jpg",
     "ingredientes": [
       "500g de frango em cubos",
       "400ml de leite de coco",
@@ -512,7 +512,7 @@
     "tempo": "70 min",
     "porcoes": 6,
     "dificuldade": "Difícil",
-    "imagem": "https://source.unsplash.com/featured/?paella",
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.irt93VVa2WPE--DNEpyGLwHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "2 xícaras de arroz arbóreo",
       "300g de camarão",
@@ -539,7 +539,7 @@
     "tempo": "15 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?salad",
+    "imagem": "https://cdn.casaeculinaria.com/wp-content/uploads/2023/03/27151435/Salada-Caesar-1160x653.jpg",
     "ingredientes": [
       "1 pé de alface romana",
       "100g de croutons",
@@ -564,7 +564,7 @@
     "tempo": "10 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?greek-salad",
+    "imagem": "https://static.itdg.com.br/images/1200-630/892178c5e4996a540d2a8525c0f281bf/salada-grega-conheca-a-receita-e-confira-5-acessorios-para-fazer-e-servir-em-casa.jpg",
     "ingredientes": [
       "2 tomates em cubos",
       "1 pepino em rodelas",
@@ -589,7 +589,7 @@
     "tempo": "20 min",
     "porcoes": 3,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?chicken-salad",
+    "imagem": "https://fricassedefrango.com.br/wp-content/uploads/2025/08/como-fazer-salada-de-frango-desfiado.jpg",
     "ingredientes": [
       "2 filés de frango cozidos e desfiados",
       "1 xícara de milho",
@@ -615,7 +615,7 @@
     "tempo": "15 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?tuna-salad",
+    "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/c1b56a7f5d1f8c741c11579a413c9ba6_XL.jpg",
     "ingredientes": [
       "2 latas de atum em pedaços",
       "1/2 cebola picada",
@@ -640,7 +640,7 @@
     "tempo": "25 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?pasta-salad",
+    "imagem": "https://th.bing.com/th/id/R.379a2b13e5f3e610bc661109fa98fd87?rik=yjxX2fzN1qdspA&pid=ImgRaw&r=0",
     "ingredientes": [
       "300g de macarrão parafuso cozido",
       "1/2 pimentão vermelho picado",
@@ -666,7 +666,7 @@
     "tempo": "30 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?potato-salad",
+    "imagem": "https://static.wixstatic.com/media/d40b03_689e11fb90fc41ca8f83f1665f92a0cc~mv2.jpg/v1/fill/w_1000,h_747,al_c,q_85,usm_0.66_1.00_0.01/d40b03_689e11fb90fc41ca8f83f1665f92a0cc~mv2.jpg",
     "ingredientes": [
       "5 batatas médias cozidas",
       "3 ovos cozidos",
@@ -691,7 +691,7 @@
     "tempo": "20 min",
     "porcoes": 3,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?quinoa",
+    "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/c5a85806ade29373c6dcf52919855e7e_XL.jpg",
     "ingredientes": [
       "1 xícara de quinoa cozida",
       "1 pepino picado",
@@ -717,7 +717,7 @@
     "tempo": "10 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?caprese",
+    "imagem": "https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2020/12/salada-caprese-scaled.jpg",
     "ingredientes": [
       "2 tomates grandes maduros",
       "200g de mussarela de búfala",
@@ -742,7 +742,7 @@
     "tempo": "15 min",
     "porcoes": 3,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?fruit-salad",
+    "imagem": "https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/02/salada-de-frutas-simples-1536x864.jpeg",
     "ingredientes": [
       "1/2 melancia",
       "2 mangas",
@@ -768,7 +768,7 @@
     "tempo": "10 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?green-salad",
+    "imagem": "https://blogdaspice.com/wp-content/uploads/2019/12/Salada-verde-com-macadamias-e-sementes-de-papoila.jpg",
     "ingredientes": [
       "Mix de folhas verdes",
       "1/2 pepino",
@@ -793,7 +793,7 @@
     "tempo": "50 min",
     "porcoes": 6,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?chocolate-cake",
+    "imagem": "https://www.receitinhascaseiras.com.br/wp-content/uploads/2023/05/Bolo-de-Chocolate-Simples-e-Fofinho_1-1.webp",
     "ingredientes": [
       "2 xícaras de farinha de trigo",
       "1 xícara de cacau em pó",
@@ -820,7 +820,7 @@
     "tempo": "20 min",
     "porcoes": 10,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?brigadeiro",
+    "imagem": "https://pilotandofogao.com.br/wp-content/uploads/2022/08/Brigadeiro-gourmet-1024x683.jpg",
     "ingredientes": [
       "1 lata de leite condensado",
       "3 colheres de cacau em pó",
@@ -843,7 +843,7 @@
     "tempo": "60 min",
     "porcoes": 8,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?pudding",
+    "imagem": "https://conteudo.imguol.com.br/c/entretenimento/54/2023/04/20/pudim-de-leite-condensado-1682011837513_v2_900x506.jpg",
     "ingredientes": [
       "1 lata de leite condensado",
       "A mesma medida de leite integral",
@@ -862,12 +862,12 @@
   },
   {
     "id": 34,
-    "nome": "Sorvete",
+    "nome": "Sorvete fit de chocolate",
     "categoria": "Sobremesa",
     "tempo": "10 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?ice-cream",
+    "imagem": "https://www.barrazine.com.br/wp-content/uploads/2024/05/sorvete-de-chocolate-caseiro-1.png",
     "ingredientes": [
       "4 bananas congeladas",
       "4 colheres de cacau em pó",
@@ -886,12 +886,12 @@
   },
   {
     "id": 35,
-    "nome": "Mousse",
+    "nome": "Mousse de Chocolate",
     "categoria": "Sobremesa",
     "tempo": "30 min",
     "porcoes": 5,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?mousse",
+    "imagem": "https://tudodelicious.com/wp-content/uploads/2025/04/Mousse-de-chocolate.jpeg",
     "ingredientes": [
       "200g de chocolate meio amargo",
       "3 ovos separados",
@@ -915,7 +915,7 @@
     "tempo": "45 min",
     "porcoes": 6,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?lemon-pie",
+    "imagem": "https://1.bp.blogspot.com/-J95A-0eg6qQ/T-e1hg0iTRI/AAAAAAAABlA/dQbqcMkD2Vg/s1600/izis+torta.JPG",
     "ingredientes": [
       "200g de biscoito maisena triturado",
       "100g de manteiga",
@@ -935,12 +935,12 @@
   },
   {
     "id": 37,
-    "nome": "Cheesecake",
+    "nome": "Cheesecake de frutas vermelhas",
     "categoria": "Sobremesa",
     "tempo": "60 min",
     "porcoes": 6,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?cheesecake",
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.A8Rl-brNudoftwKrMRs1QgHaGV?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "200g de biscoito triturado",
       "100g de manteiga",
@@ -966,7 +966,7 @@
     "tempo": "35 min",
     "porcoes": 6,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?brownie",
+    "imagem": "https://natashaskitchen.com/wp-content/uploads/2020/08/Chocolate-Brownie-Recipe-5.jpg",
     "ingredientes": [
       "200g de chocolate meio amargo",
       "100g de manteiga",
@@ -992,7 +992,7 @@
     "tempo": "90 min",
     "porcoes": 5,
     "dificuldade": "Difícil",
-    "imagem": "https://source.unsplash.com/featured/?dulce-de-leche",
+    "imagem": "https://saboremmovimento.com.br/wp-content/uploads/2025/02/receita-de-doce-de-leite.jpg",
     "ingredientes": [
       "1 litro de leite integral",
       "300g de açúcar",
@@ -1016,7 +1016,7 @@
     "tempo": "15 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?gelatin",
+    "imagem": "https://www.somosmamas.com.ar/wp-content/uploads/2020/12/gelatina-de-frutas-2-990x660.jpg",
     "ingredientes": [
       "2 caixas de gelatina colorida",
       "500ml de água quente",
@@ -1040,7 +1040,7 @@
     "tempo": "40 min",
     "porcoes": 6,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?tiramisu",
+    "imagem": "https://trinkreif.de/wp-content/uploads/Tiramisu-Rezept-Klassisch-Italienisch.jpg",
     "ingredientes": [
       "300g de biscoito champagne",
       "500g de mascarpone",
@@ -1066,7 +1066,7 @@
     "tempo": "25 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?panna-cotta",
+    "imagem": "https://th.bing.com/th/id/R.ee9cd43250b8dcc924a68bf6314a6a90?rik=dNfC3VEY3zoRFA&riu=http%3a%2f%2fenglishs.co.uk%2fwp-content%2fuploads%2f2016%2f01%2fPannacotta-4.jpg&ehk=D9suNj3RxeRaReg5vOkENF8DQIJoXEuHR7UIdIkMVu4%3d&risl=1&pid=ImgRaw&r=0",
     "ingredientes": [
       "500ml de creme de leite fresco",
       "50g de açúcar",
@@ -1086,12 +1086,12 @@
   },
   {
     "id": 43,
-    "nome": "Pavê",
+    "nome": "Pavê de chocolate com coco",
     "categoria": "Sobremesa",
     "tempo": "30 min",
     "porcoes": 8,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?trifle",
+    "imagem": "https://i.pinimg.com/originals/d1/69/fc/d169fc30ef87b3a17643287248b5410e.jpg",
     "ingredientes": [
       "1 pacote de biscoito champagne",
       "1 lata de leite condensado",
@@ -1112,12 +1112,12 @@
   },
   {
     "id": 44,
-    "nome": "Bolo de Cenoura",
+    "nome": "Bolo de Cenoura com cobertura de chocolate",
     "categoria": "Sobremesa",
     "tempo": "55 min",
     "porcoes": 8,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?carrot-cake",
+    "imagem": "https://osegredo.com.br/wp-content/uploads/2022/09/Capa-site-As-16-melhores-receitas-de-bolo-de-cenoura.-Fofinhos-e-deliciosos.jpg",
     "ingredientes": [
       "3 cenouras médias",
       "3 ovos",
@@ -1138,12 +1138,12 @@
   },
   {
     "id": 45,
-    "nome": "Crepe",
+    "nome": "Crepe recheado",
     "categoria": "Sobremesa",
     "tempo": "25 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?crepe",
+    "imagem": "https://cravinghomecooked.com/wp-content/uploads/2023/08/crepe-recipe-1-11-650x813.jpg",
     "ingredientes": [
       "1 xícara de farinha de trigo",
       "2 ovos",
@@ -1168,7 +1168,7 @@
     "tempo": "50 min",
     "porcoes": 6,
     "dificuldade": "Difícil",
-    "imagem": "https://source.unsplash.com/featured/?profiterole",
+    "imagem": "https://th.bing.com/th/id/R.15a05c53567cb9db6b7c2f4a2d4d8bd5?rik=3lDmbymjF6xnHg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-5kMAtSPvM9g%2fUREXz2UiX-I%2fAAAAAAAAECc%2fJ8ZDTqs52No%2fs1600%2fIMG_7873.JPG&ehk=Q0f5Zt%2fHIBsrkEwUXQtRItLYa8CwVwu9XM%2bDH5D7oos%3d&risl=&pid=ImgRaw&r=0",
     "ingredientes": [
       "250ml de água",
       "100g de manteiga",
@@ -1194,7 +1194,7 @@
     "tempo": "45 min",
     "porcoes": 6,
     "dificuldade": "Média",
-    "imagem": "https://source.unsplash.com/featured/?custard",
+    "imagem": "https://cdn.casaeculinaria.com/wp-content/uploads/2023/01/31164247/quindim.jpg",
     "ingredientes": [
       "6 gemas",
       "1 xícara de açúcar",
@@ -1219,7 +1219,7 @@
     "tempo": "10 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?guava-cheese",
+    "imagem": "https://cdn0.tudoreceitas.com/pt/posts/1/6/2/sobremesa_romeu_e_julieta_na_travessa_10261_paso_8_600.jpg",
     "ingredientes": [
       "300g de goiabada",
       "200g de queijo meia cura",
@@ -1241,7 +1241,7 @@
     "tempo": "20 min",
     "porcoes": 3,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?waffle",
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP._RGLE9WGkTCrwccvqP4WigHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "2 xícaras de farinha de trigo",
       "2 colheres de açúcar",
@@ -1267,7 +1267,7 @@
     "tempo": "50 min",
     "porcoes": 4,
     "dificuldade": "Difícil",
-    "imagem": "https://source.unsplash.com/featured/?creme-brulee",
+    "imagem": "https://natashaskitchen.com/wp-content/uploads/2020/02/Creme-Brule-Recipe-SQ.jpg",
     "ingredientes": [
       "500ml de creme de leite fresco",
       "5 gemas",
@@ -1291,7 +1291,7 @@
     "tempo": "10 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?milkshake",
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP.QeWyV0_3JPNZs4rsQa6-lAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "3 bolas de sorvete (baunilha ou chocolate)",
       "200ml de leite gelado",
@@ -1315,7 +1315,7 @@
     "tempo": "5 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?orange-juice",
+    "imagem": "https://espaconatelie.com.br/wp-content/uploads/2024/12/suco-natural-de-laranja.jpg",
     "ingredientes": [
       "6 laranjas",
       "Açúcar a gosto (opcional)",
@@ -1336,7 +1336,7 @@
     "tempo": "5 min",
     "porcoes": 1,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?coffee",
+    "imagem": "https://cafesdecolombia.co/wp-content/uploads/2025/06/ChatGPT-Image-6-jun-2025-13_39_15.webp",
     "ingredientes": [
       "2 colheres de café em pó",
       "200ml de água quente",
@@ -1357,7 +1357,7 @@
     "tempo": "10 min",
     "porcoes": 1,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?tea",
+    "imagem": "https://kiwiappz.com/wp-content/uploads/2024/03/Post_327554.jpg",
     "ingredientes": [
       "1 sachê ou 1 colher de chá a granel",
       "200ml de água quente",
@@ -1375,12 +1375,12 @@
   },
   {
     "id": 55,
-    "nome": "Smoothie",
+    "nome": "Smoothie de morango",
     "categoria": "Bebida",
     "tempo": "10 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?smoothie",
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP.zIivkwXZdjCNpSzLBPX5egHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ingredientes": [
       "1 banana congelada",
       "1 xícara de morango",
@@ -1405,7 +1405,7 @@
     "tempo": "10 min",
     "porcoes": 4,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?lemonade",
+    "imagem": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2024/07/17/17212148458777.jpg",
     "ingredientes": [
       "4 limões",
       "4 colheres de açúcar",
@@ -1428,7 +1428,7 @@
     "tempo": "5 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?banana-smoothie",
+    "imagem": "https://receitinhas.com.br/wp-content/uploads/2022/09/iStock-1194152250-1.jpg",
     "ingredientes": [
       "2 bananas maduras",
       "400ml de leite gelado",
@@ -1450,7 +1450,7 @@
     "tempo": "10 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?hot-chocolate",
+    "imagem": "https://www.aarquiteta.com.br/blog/wp-content/uploads/2023/07/como-fazer-chocolate-quente-1-1024x574.png",
     "ingredientes": [
       "500ml de leite integral",
       "4 colheres de chocolate em pó",
@@ -1474,7 +1474,7 @@
     "tempo": "10 min",
     "porcoes": 2,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?caipirinha",
+    "imagem": "https://trinkreif.de/wp-content/uploads/caipirinha-cocktail-rezept.jpg",
     "ingredientes": [
       "2 limões taiti",
       "4 colheres de açúcar",
@@ -1497,7 +1497,7 @@
     "tempo": "5 min",
     "porcoes": 1,
     "dificuldade": "Fácil",
-    "imagem": "https://source.unsplash.com/featured/?coconut-water",
+    "imagem": "https://blog-obahortifruti.redeoba.com.br/wp-content/uploads/2022/01/Agua_de_coco_conheca_os_principais_mitos_e_beneficios_da_bebida_Oba_Hortifruti-3.png",
     "ingredientes": [
       "1 coco verde",
       "Gelo a gosto",
