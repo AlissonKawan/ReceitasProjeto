@@ -10,7 +10,7 @@ function Stats({ receitas }: Props) {
   // Conta o total de receitas
   const total = receitas.length;
 
-  // Conta quantas receitas têm dificuldade "Fácil"
+  //Conta quantas receitas têm dificuldade "Fácil"
   const faceis = receitas.filter((r) => r.dificuldade === "Fácil").length;
 
   // Conta quantas receitas têm dificuldade "Média"
