@@ -68,7 +68,7 @@ function RecipeList({ receitas }: Props) {
     <div className="flex flex-col items-center">
 
       {/* Container centralizado */}
-      <div className="w-full max-w-6xl">
+      <div className="w-full">
 
         {/* GRID de receitas */}
         {/* organiza os cards em colunas responsivas */}

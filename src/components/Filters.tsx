@@ -10,8 +10,8 @@ type Props = {
   onLimpar: () => void;
 };
 
-const dificuldades = ["Todas as dificuldades", "Fácil", "Média", "Difícil"];
-const categorias = ["Todas as categorias", "Prato Principal", "Bebida", "Sobremesa", "Salada"];
+const dificuldades = ["Todas", "Fácil", "Média", "Difícil"];
+const categorias = ["Todas", "Prato Principal", "Bebida", "Sobremesa", "Salada"];
 
 function CustomSelect({
   value,
@@ -39,11 +39,11 @@ function CustomSelect({
     <div ref={ref} className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm text-gray-700 hover:bg-gray-50 transition-colors whitespace-nowrap"
+        className="flex items-center gap-1 border border-gray-200 rounded-md px-3 py-1.5 bg-white text-sm text-gray-700 hover:bg-gray-50"
       >
         <span>{value}</span>
         <svg
-          className={`w-4 h-4 text-gray-400 transition-transform ${open ? "rotate-180" : ""}`}
+          className={`w-3 h-3 text-gray-400 ${open ? "rotate-180" : ""}`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -53,21 +53,16 @@ function CustomSelect({
       </button>
 
       {open && (
-        <div className="absolute top-full left-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-50 min-w-full">
+        <div className="absolute top-full left-0 mt-1 bg-white border border-gray-200 rounded-md shadow z-50 min-w-full">
           {options.map((opt) => (
             <button
               key={opt}
               onClick={() => { onChange(opt); setOpen(false); }}
-              className={`flex items-center justify-between w-full text-left px-4 py-2 text-sm hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg ${
-                value === opt ? "text-gray-900 font-medium" : "text-gray-700"
+              className={`block w-full text-left px-3 py-1.5 text-sm hover:bg-gray-50 ${
+                value === opt ? "font-medium text-gray-900" : "text-gray-700"
               }`}
             >
-              <span>{opt}</span>
-              {value === opt && (
-                <svg className="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-              )}
+              {opt}
             </button>
           ))}
         </div>
@@ -86,35 +81,55 @@ function Filter({
   onLimpar,
 }: Props) {
   return (
-    <div className="flex justify-center px-4 pt-6 pb-2">
-      <div className="bg-white shadow-md rounded-xl p-4 w-full max-w-3xl flex flex-col gap-3">
-
-        {/* Buscagem */}
-        <div className="flex items-center border border-gray-200 rounded-lg px-3 py-2 gap-2">
-          <svg className="w-4 h-4 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <div className="flex justify-center px-4 pt-4 pb-2">
+      <div
+        className="
+          bg-white 
+          shadow-sm 
+          rounded-lg 
+          p-3 
+          w-full   
+          flex 
+          flex-col 
+          gap-2
+        "
+      >
+        {/* BUSCA */}
+        <div className="flex items-center border border-gray-200 rounded-md px-2 py-1.5 gap-2">
+          <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
+
           <input
             type="text"
-            placeholder="Buscar receitas..."
+            placeholder="Buscar..."
             value={termoBusca}
             onChange={(e) => setTermoBusca(e.target.value)}
-            className="flex-1 outline-none text-gray-700 text-sm"
+            className="flex-1 outline-none text-sm"
           />
         </div>
 
-        {/* Dropdowns */}
-        <div className="flex items-center gap-3 flex-wrap">
-          <CustomSelect value={filtroDificuldade} onChange={setFiltroDificuldade} options={dificuldades} />
-          <CustomSelect value={filtroCategoria} onChange={setFiltroCategoria} options={categorias} />
+        {/* FILTROS */}
+        <div className="flex items-center gap-2 flex-wrap">
+          <CustomSelect
+            value={filtroDificuldade}
+            onChange={setFiltroDificuldade}
+            options={dificuldades}
+          />
+
+          <CustomSelect
+            value={filtroCategoria}
+            onChange={setFiltroCategoria}
+            options={categorias}
+          />
+
           <button
             onClick={onLimpar}
-            className="text-sm text-gray-500 hover:text-gray-800 transition-colors ml-auto"
+            className="text-xs text-gray-500 hover:text-gray-800 ml-auto"
           >
-            Limpar Filtros
+            Limpar
           </button>
         </div>
-
       </div>
     </div>
   );
