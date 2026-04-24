@@ -30,7 +30,7 @@ function Tabs({ filtroAtivo, onChange }: Props) {
           >
             {/* Exibe o texto do botão. Se for "Todas", mostra "Todas". 
                 Caso contrário, adiciona um "s" no final (ex: "Fácil" -> "Fáceis") */}
-            {opcao === "Todas" ? "Todas" : `${opcao}s`}
+           {opcao === "Todas" ? "Todas" : opcao === "Fácil" ? "Fáceis" : opcao === "Média" ? "Médias" : "Difíceis"}
           </button>
         ))}
       </div>
