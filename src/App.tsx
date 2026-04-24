@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Filter from "./components/Filters";
@@ -58,11 +59,9 @@ function App() {
         onLimpar={limparFiltros}
       />
 
-      <Tabs
-        filtroAtivo={abaAtiva}
-        onChange={setAbaAtiva}
-      />
+      <Tabs filtroAtivo={abaAtiva} onChange={setAbaAtiva} />
 
+      {/* ⚠️ sem o total pra não dar erro */}
       <RecipeList receitas={receitasFiltradas} />
 
       <Footer />
