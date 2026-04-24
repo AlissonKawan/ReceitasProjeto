@@ -85,31 +85,36 @@ function App() {
       {/* Cabeçalho da aplicação */}
       <Header />
 
-      {/* Estatísticas gerais (usa TODAS as receitas, não as filtradas) */}
-      <Stats receitas={receitasData as Receita[]} />
+      {/* CONTAINER GLOBAL (resolve desproporção) */}
+      <div className="max-w-5xl mx-auto px-4">
 
-      {/* Componente de filtros */}
-      {/* Recebe os estados e funções para alterar eles */}
-      <Filter
-        termoBusca={termoBusca}
-        setTermoBusca={setTermoBusca}
-        filtroDificuldade={filtroDificuldade}
-        setFiltroDificuldade={setFiltroDificuldade}
-        filtroCategoria={filtroCategoria}
-        setFiltroCategoria={setFiltroCategoria}
-        onLimpar={limparFiltros}
-      />
+        {/* Estatísticas gerais (usa TODAS as receitas, não as filtradas) */}
+        <Stats receitas={receitasData as Receita[]} />
 
-      {/* Tabs de dificuldade */}
-      {/* Controla qual aba está ativa */}
-      <Tabs
-        filtroAtivo={abaAtiva}
-        onChange={setAbaAtiva}
-      />
+        {/* Componente de filtros */}
+        {/* Recebe os estados e funções para alterar eles */}
+        <Filter
+          termoBusca={termoBusca}
+          setTermoBusca={setTermoBusca}
+          filtroDificuldade={filtroDificuldade}
+          setFiltroDificuldade={setFiltroDificuldade}
+          filtroCategoria={filtroCategoria}
+          setFiltroCategoria={setFiltroCategoria}
+          onLimpar={limparFiltros}
+        />
 
-      {/* Lista de receitas */}
-      {/* Aqui entram só as receitas já filtradas */}
-      <RecipeList receitas={receitasFiltradas} />
+        {/* Tabs de dificuldade */}
+        {/* Controla qual aba está ativa */}
+        <Tabs
+          filtroAtivo={abaAtiva}
+          onChange={setAbaAtiva}
+        />
+
+        {/* Lista de receitas */}
+        {/* Aqui entram só as receitas já filtradas */}
+        <RecipeList receitas={receitasFiltradas} />
+
+      </div>
 
       {/* Rodapé */}
       <Footer />

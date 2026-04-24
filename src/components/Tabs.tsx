@@ -15,7 +15,7 @@ function Tabs({ filtroAtivo, onChange }: Props) {
     // Container externo que centraliza o conteúdo e adiciona espaçamento
     <div className="flex justify-center px-4 pb-4">
       {/* Container interno com fundo cinza claro e bordas arredondadas */}
-      <div className="flex w-full max-w-4xl bg-gray-100 rounded-xl overflow-hidden">
+      <div className="flex w-full bg-gray-100 rounded-xl overflow-hidden">
         {/* Itera sobre cada opção de filtro e cria um botão */}
         {opcoes.map((opcao) => (
           <button

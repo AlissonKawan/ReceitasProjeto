@@ -31,7 +31,7 @@ function Stats({ receitas }: Props) {
     // Container principal que centraliza o conteúdo e adiciona espaçamento
     <div className="flex justify-center py-6 px-4">
       {/* Grid responsiva: 2 colunas em telas pequenas, 4 em maiores */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 w-full max-w-4xl">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 w-full">
         {/* Itera sobre o array de cards e renderiza cada um */}
         {cards.map((card) => (
           <div
