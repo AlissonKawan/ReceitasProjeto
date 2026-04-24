@@ -7,6 +7,7 @@ import Tabs from "./components/Tabs";
 import type { DificuldadeFiltro } from "./components/Tabs";
 import receitasData from "./json/receitas.json";
 import type { Receita } from "./components/Receita";
+import Stats from "./components/Stats";
 
 function App() {
   const [termoBusca, setTermoBusca] = useState("");
@@ -34,6 +35,7 @@ function App() {
   return (
     <>
       <Header />
+      <Stats receitas={receitasData as Receita[]} />
       <Filter
         termoBusca={termoBusca}
         setTermoBusca={setTermoBusca}

@@ -100,8 +100,8 @@ function RecipeList({ receitas }: Props) {
         <div className="fixed inset-0 bg-black/50 flex justify-center items-center">
 
           {/* container do modal */}
-          <div className="bg-white p-6 rounded-lg max-w-lg w-full">
-
+          <div className="bg-white p-6 rounded-lg max-w-lg w-full overflow-y-auto max-h-[90vh]">
+            
             {/* HEADER com título + botão fechar */}
             <div className="flex justify-between items-start mb-2">
               <h2 className="text-xl font-bold">
