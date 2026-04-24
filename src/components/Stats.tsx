@@ -54,4 +54,4 @@ function Stats({ receitas }: Props) {
 }
 
 // Exporta o componente para ser usado em outros arquivos
-export default Stats;
+  export default Stats;

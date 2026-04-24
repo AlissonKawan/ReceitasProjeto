@@ -1,83 +1,62 @@
-// importa o hook de estado do react
+// Importa o hook useState do React
 import { useState } from "react";
 
-// importa os componentes da tela
+// Importa os componentes que serão usados na aplicação
 import Filter from "./components/Filters";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import RecipeList from "./components/RecipeList";
+import Stats from "./components/Stats";
+import Tabs from "./components/Tabs";
 
-// importa o JSON com as receitas
+// Importa o tipo DificuldadeFiltro definido no componente Tabs
+import type { DificuldadeFiltro } from "./components/Tabs";
+
+// Importa os dados das receitas a partir de um arquivo JSON
 import receitasData from "./json/receitas.json";
 
-// importa o tipo Receita (typescript)
+// Importa o tipo Receita para tipagem das receitas
 import type { Receita } from "./components/Receita";
 
+function App() {
+  // Estado que guarda qual aba de dificuldade está ativa (inicialmente "Todas")
+  const [tabDificuldade, setTabDificuldade] = useState<DificuldadeFiltro>("Todas");
 
-// componente principal da aplicação
-function App(){
+  // Filtra as receitas conforme o filtro ativo
+  // Se o filtro for "Todas", mostra todas as receitas
+  // Caso contrário, mostra apenas as receitas da dificuldade selecionada
+  const receitasFiltradas: Receita[] = tabDificuldade === "Todas"
+    ? receitasData
+    : receitasData.filter((r) => r.dificuldade === tabDificuldade);
 
-    // estado da busca (texto digitado)
-    const [termoBusca, setTermoBusca] = useState("");
+  return (
+    <>
+      {/* Cabeçalho da aplicação */}
+      <Header />
 
-    // estado do filtro de dificuldade
-    const [filtroDificuldade, setFiltroDificuldade] = useState("Todas as dificuldades");
+      {/* Estatísticas gerais das receitas (sempre com base em todas) */}
+      <Stats receitas={receitasData} />
 
-    // estado do filtro de categoria
-    const [filtroCategoria, setFiltroCategoria] = useState("Todas as categorias");
+      {/* Componente de filtros adicionais (não relacionado às tabs) */}
+      <Filter />
 
+      {/* Texto informativo mostrando quantas receitas estão sendo exibidas */}
+      <p className="text-center text-sm text-gray-500 mb-3">
+        Mostrando <strong>{receitasFiltradas.length}</strong> de{" "}
+        <strong>{receitasData.length}</strong> receitas
+      </p>
 
-    // aqui acontece o filtro principal da aplicação
-    // ele pega TODAS receitas e aplica regras
-    const receitasFiltradas = (receitasData as Receita[]).filter((r) => {
+      {/* Componente de abas para selecionar dificuldade */}
+      <Tabs filtroAtivo={tabDificuldade} onChange={setTabDificuldade} />
 
-        // verifica se o nome da receita contém o texto digitado
-        // toLowerCase = ignora maiúscula/minúscula
-        const matchBusca = r.nome.toLowerCase().includes(termoBusca.toLowerCase());
+      {/* Lista de receitas filtradas conforme a aba selecionada */}
+      <RecipeList receitas={receitasFiltradas} />
 
-        // verifica dificuldade
-        // se for "Todas", aceita qualquer uma
-        // senão, precisa bater exatamente
-        const matchDificuldade =
-            filtroDificuldade === "Todas as dificuldades" || r.dificuldade === filtroDificuldade;
-
-        // mesma lógica para categoria
-        const matchCategoria =
-            filtroCategoria === "Todas as categorias" || r.categoria === filtroCategoria;
-
-        // só retorna true se TODAS as condições forem verdadeiras
-        return matchBusca && matchDificuldade && matchCategoria;
-    });
-
-
-    return(
-        <>
-        {/* cabeçalho */}
-        <Header />
-
-        {/* componente de filtros */}
-        {/* aqui você passa o estado + funções pra ele controlar */}
-        <Filter
-            termoBusca={termoBusca}
-            setTermoBusca={setTermoBusca}
-            filtroDificuldade={filtroDificuldade}
-            setFiltroDificuldade={setFiltroDificuldade}
-            filtroCategoria={filtroCategoria}
-            setFiltroCategoria={setFiltroCategoria}
-        />
-
-        {/* lista de receitas já filtradas */}
-        <RecipeList 
-            receitas={receitasFiltradas} // só o que passou no filtro
-            total={receitasData.length} // total original (sem filtro)
-        />
-
-        {/* rodapé */}
-        <Footer />
-        </>
-    )
+      {/* Rodapé da aplicação */}
+      <Footer />
+    </>
+  );
 }
 
-
-// exporta o App (ponto de entrada)
+// Exporta o componente principal da aplicação
 export default App;
