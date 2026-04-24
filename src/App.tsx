@@ -1,13 +1,16 @@
 import { useState } from "react";
-import Filter from "./components/Filters";
-import Footer from "./components/Footer";
+
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Filter from "./components/Filters";
 import RecipeList from "./components/RecipeList";
 import Tabs from "./components/Tabs";
-import type { DificuldadeFiltro } from "./components/Tabs";
-import receitasData from "./json/receitas.json";
-import type { Receita } from "./components/Receita";
 import Stats from "./components/Stats";
+
+import receitasData from "./json/receitas.json";
+
+import type { Receita } from "./components/Receita";
+import type { DificuldadeFiltro } from "./components/Tabs";
 
 function App() {
   const [termoBusca, setTermoBusca] = useState("");
@@ -17,11 +20,19 @@ function App() {
 
   const receitasFiltradas = (receitasData as Receita[]).filter((r) => {
     const matchBusca = r.nome.toLowerCase().includes(termoBusca.toLowerCase());
+
     const matchDificuldade =
-      filtroDificuldade === "Todas as dificuldades" || r.dificuldade === filtroDificuldade;
+      filtroDificuldade === "Todas as dificuldades" ||
+      r.dificuldade === filtroDificuldade;
+
     const matchCategoria =
-      filtroCategoria === "Todas as categorias" || r.categoria === filtroCategoria;
-    const matchAba = abaAtiva === "Todas" || r.dificuldade === abaAtiva;
+      filtroCategoria === "Todas as categorias" ||
+      r.categoria === filtroCategoria;
+
+    const matchAba =
+      abaAtiva === "Todas" ||
+      r.dificuldade === abaAtiva;
+
     return matchBusca && matchDificuldade && matchCategoria && matchAba;
   });
 
@@ -35,7 +46,9 @@ function App() {
   return (
     <>
       <Header />
+
       <Stats receitas={receitasData as Receita[]} />
+
       <Filter
         termoBusca={termoBusca}
         setTermoBusca={setTermoBusca}
@@ -45,8 +58,12 @@ function App() {
         setFiltroCategoria={setFiltroCategoria}
         onLimpar={limparFiltros}
       />
+
       <Tabs filtroAtivo={abaAtiva} onChange={setAbaAtiva} />
-      <RecipeList receitas={receitasFiltradas} total={receitasData.length} />
+
+      {/* ⚠️ sem o total pra não dar erro */}
+      <RecipeList receitas={receitasFiltradas} />
+
       <Footer />
     </>
   );
