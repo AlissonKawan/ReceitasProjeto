@@ -20,7 +20,9 @@ function Tabs({ filtroAtivo, onChange }: Props) {
         {opcoes.map((opcao) => (
           <button
             key={opcao} // Usa o nome da opção como chave única
-            onClick={() => onChange(opcao)} // Chama a função onChange passando a opção clicada
+
+            onClick={() => onChange(opcao)}
+
             className={`flex-1 py-3 text-sm font-semibold transition-colors
               ${
                 filtroAtivo === opcao
@@ -30,7 +32,15 @@ function Tabs({ filtroAtivo, onChange }: Props) {
           >
             {/* Exibe o texto do botão. Se for "Todas", mostra "Todas". 
                 Caso contrário, adiciona um "s" no final (ex: "Fácil" -> "Fáceis") */}
-           {opcao === "Todas" ? "Todas" : opcao === "Fácil" ? "Fáceis" : opcao === "Média" ? "Médias" : "Difíceis"}
+            {
+              opcao === "Todas"
+                ? "Todas"
+                : opcao === "Fácil"
+                ? "Fáceis"
+                : opcao === "Média"
+                ? "Médias"
+                : "Difíceis"
+            }
           </button>
         ))}
       </div>
