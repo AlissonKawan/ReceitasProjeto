@@ -28,14 +28,11 @@ function App() {
   // Estado que guarda o texto digitado na busca
   const [termoBusca, setTermoBusca] = useState("");
 
-  // Estado que guarda o filtro de dificuldade selecionado
+  // unico estado de dificuldade
   const [filtroDificuldade, setFiltroDificuldade] = useState("Todas as dificuldades");
 
   // Estado que guarda o filtro de categoria
   const [filtroCategoria, setFiltroCategoria] = useState("Todas as categorias");
-
-  // Estado que controla qual aba está ativa (Fácil, Média, Difícil, Todas)
-  const [abaAtiva, setAbaAtiva] = useState<DificuldadeFiltro>("Todas");
 
 
   // Aqui acontece a lógica principal de filtragem
@@ -57,14 +54,8 @@ function App() {
       filtroCategoria === "Todas as categorias" ||
       r.categoria === filtroCategoria;
 
-    // Verifica a aba ativa (Tabs)
-    // Funciona como um filtro extra por dificuldade
-    const matchAba =
-      abaAtiva === "Todas" ||
-      r.dificuldade === abaAtiva;
-
     // Só retorna a receita se TODOS os filtros forem verdadeiros
-    return matchBusca && matchDificuldade && matchCategoria && matchAba;
+    return matchBusca && matchDificuldade && matchCategoria;
   });
 
 
@@ -74,7 +65,6 @@ function App() {
     setTermoBusca("");
     setFiltroDificuldade("Todas as dificuldades");
     setFiltroCategoria("Todas as categorias");
-    setAbaAtiva("Todas");
   }
 
 
@@ -104,10 +94,20 @@ function App() {
         />
 
         {/* Tabs de dificuldade */}
-        {/* Controla qual aba está ativa */}
+        {/* Agora elas controlam o MESMO estado do select */}
         <Tabs
-          filtroAtivo={abaAtiva}
-          onChange={setAbaAtiva}
+          filtroAtivo={
+            filtroDificuldade === "Todas as dificuldades"
+              ? "Todas"
+              : (filtroDificuldade as DificuldadeFiltro)
+          }
+          onChange={(valor) => {
+            if (valor === "Todas") {
+              setFiltroDificuldade("Todas as dificuldades");
+            } else {
+              setFiltroDificuldade(valor);
+            }
+          }}
         />
 
         {/* Lista de receitas */}
